@@ -21,6 +21,8 @@ void ABlackHole::BeginPlay()
 
 	CurrentMass = InitialMass;
 
+	PlayerController = Cast<ASpacePlayerController>(GetWorld()->GetFirstPlayerController());
+	
 	// Set the initial radius of the sphere based on the initial mass
 	float InitialRadius = FMath::Sqrt(CurrentMass) / 10.0f; // Scaled down for visualization
 	BlackHoleComponent->InitSphereRadius(InitialRadius);
@@ -30,19 +32,22 @@ void ABlackHole::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (CurrentMass > 0.0f)
+	if(PlayerController)
 	{
-		CurrentMass -= MassLossRate * DeltaTime;
+		if (CurrentMass > 0.0f && !PlayerController->IsTimeFrozen)
+		{
+			CurrentMass -= MassLossRate * DeltaTime;
 
-		if (CurrentMass <= 0.0f)
-		{
-			OnDeath();
-		}
-		else
-		{
-			// Update the radius of the sphere based on the current mass
-			float CurrentScale = InitialScale * FMath::Sqrt(CurrentMass / InitialMass);
-			SetActorScale3D(FVector(CurrentScale));
+			if (CurrentMass <= 0.0f)
+			{
+				OnDeath();
+			}
+			else
+			{
+				// Update the radius of the sphere based on the current mass
+				float CurrentScale = InitialScale * FMath::Sqrt(CurrentMass / InitialMass);
+				SetActorScale3D(FVector(CurrentScale));
+			}
 		}
 	}
 }

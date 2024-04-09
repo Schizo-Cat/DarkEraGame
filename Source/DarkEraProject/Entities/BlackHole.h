@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/SphereComponent.h"
+#include "DarkEraProject/SpacePlayerController.h"
 #include "GameFramework/Actor.h"
 #include "BlackHole.generated.h"
 
@@ -35,6 +36,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Components")
 	USphereComponent* BlackHoleComponent;
 
+	ASpacePlayerController* PlayerController;
 	UFUNCTION()
 	void OnDeath();
 
