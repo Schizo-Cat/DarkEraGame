@@ -17,4 +17,6 @@ class DARKERAPROJECT_API ASpacePlayerController : public APlayerController
 public:
 	UPROPERTY(BlueprintReadWrite)
 	bool IsTimeFrozen;
+	UPROPERTY(BlueprintReadWrite)
+	float timeSpeed = 1.0f;
 };

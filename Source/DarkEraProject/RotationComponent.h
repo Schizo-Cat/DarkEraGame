@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "SpacePlayerController.h"
 #include "Components/ActorComponent.h"
 #include "RotationComponent.generated.h"
 
@@ -24,6 +25,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
 	float RotationSpeed = 180.0f;
 
+protected:
+	virtual void BeginPlay() override;
+	ASpacePlayerController* PlayerController;
+	
 private:
 	float ShakeTimelineProgress = 0.0f;
 	float RotationTimelineProgress = 0.0f;

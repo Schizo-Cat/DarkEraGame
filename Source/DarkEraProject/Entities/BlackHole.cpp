@@ -36,7 +36,7 @@ void ABlackHole::Tick(float DeltaTime)
 	{
 		if (CurrentMass > 0.0f && !PlayerController->IsTimeFrozen)
 		{
-			CurrentMass -= MassLossRate * DeltaTime;
+			CurrentMass -= MassLossRate * DeltaTime * PlayerController->timeSpeed;
 
 			if (CurrentMass <= 0.0f)
 			{
