@@ -7,7 +7,7 @@
 		{
 			"Name": "DarkEraProject",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
+			"LoadingPhase": "PreDefault",
 			"AdditionalDependencies": [
 				"Engine",
 				"UMG"

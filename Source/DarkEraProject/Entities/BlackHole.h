@@ -49,5 +49,6 @@ protected:
 	UFUNCTION()
 	void MakeScreenGoDark();
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "BlackHole")
 	float CurrentMass;
 };
