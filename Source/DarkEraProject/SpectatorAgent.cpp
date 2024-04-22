@@ -4,15 +4,19 @@
 #include "Camera/CameraComponent.h"
 #include "Engine/World.h"
 #include "Engine/Engine.h"
+#include "GameFramework/SpringArmComponent.h"
 
 ASpectatorAgent::ASpectatorAgent()
 {
     PrimaryActorTick.bCanEverTick = true;
     RotationSpeed = 0.001f;
     ZoomSpeed = 20.0f;
-    MinZoomDistance = 100.0f;
-    MaxZoomDistance = 500.0f;
+    
+    CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
     CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComponent"));
+    CameraBoom->SetupAttachment(RootComponent);
+    CameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
+    //CameraBoom->TargetArmLength = 0;
 }
 
 void ASpectatorAgent::Tick(float DeltaTime)
@@ -29,6 +33,7 @@ void ASpectatorAgent::Tick(float DeltaTime)
     FVector NewPosition = TargetPosition - (DirectionToTarget * MaxZoomDistance);
     GetViewTarget()->SetActorLocation(NewPosition);
     
+    UE_LOG(LogTemp, Warning, TEXT("Mass X: %s"), *GetViewTarget()->GetActorRotation().ToString());
 }
 
 void ASpectatorAgent::RotateCamera()
@@ -68,7 +73,8 @@ void ASpectatorAgent::MoveCameraUp()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition += GetViewTarget()->GetActorUpVector() * ZoomSpeed;
+        if(GetViewTarget()->GetActorRotation().Pitch > -87)
+            CurrentPosition += GetViewTarget()->GetActorUpVector() * ZoomSpeed;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -78,7 +84,8 @@ void ASpectatorAgent::MoveCameraDown()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition -= GetViewTarget()->GetActorUpVector() * ZoomSpeed;
+        if(GetViewTarget()->GetActorRotation().Pitch < 87)
+            CurrentPosition -= GetViewTarget()->GetActorUpVector() * ZoomSpeed;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -88,7 +95,7 @@ void ASpectatorAgent::MoveCameraLeft()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition -= GetViewTarget()->GetActorRightVector() * ZoomSpeed;
+        CurrentPosition -= GetViewTarget()->GetActorRightVector() * ZoomSpeed * GetViewTarget()->GetActorUpVector().Z;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -98,11 +105,9 @@ void ASpectatorAgent::MoveCameraRight()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition += GetViewTarget()->GetActorRightVector() * ZoomSpeed;
+        CurrentPosition += GetViewTarget()->GetActorRightVector() * ZoomSpeed * GetViewTarget()->GetActorUpVector().Z;
         GetViewTarget()->SetActorLocation(CurrentPosition);
-        UE_LOG(LogTemp, Warning, TEXT("Right"));
     }
-    UE_LOG(LogTemp, Warning, TEXT("Right"));
 }
 
 AActor* ASpectatorAgent::GetViewTarget()
@@ -114,15 +119,19 @@ void ASpectatorAgent::ZoomCamera(float DeltaZoom)
 {
     if(GetViewTarget() != nullptr)
     {
-        FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        FVector DirectionToTarget = TargetPosition - CurrentPosition;
-        float CurrentDistance = DirectionToTarget.Size();
-
+        //FVector NewOffset = FVector(DeltaZoom, 0.0f, 0.0f) + CameraBoom->SocketOffset;
+        float CurrentDistance = CameraBoom->TargetArmLength;
         float NewDistance = FMath::Clamp(CurrentDistance + DeltaZoom * ZoomSpeed, MinZoomDistance, MaxZoomDistance);
-
-        DirectionToTarget.Normalize();
-        FVector NewPosition = TargetPosition - (DirectionToTarget * NewDistance);
-
-        GetViewTarget()->SetActorLocation(NewPosition);
+        CameraBoom->TargetArmLength = NewDistance;
+        // FVector CurrentPosition = GetViewTarget()->GetActorLocation();
+        // FVector DirectionToTarget = TargetPosition - CurrentPosition;
+        // float CurrentDistance = DirectionToTarget.Size();
+        //
+        // float NewDistance = FMath::Clamp(CurrentDistance + DeltaZoom * ZoomSpeed, MinZoomDistance, MaxZoomDistance);
+        //
+        // DirectionToTarget.Normalize();
+        // FVector NewPosition = TargetPosition - (DirectionToTarget * NewDistance);
+        //
+        // GetViewTarget()->SetActorLocation(NewPosition);
     }
 }

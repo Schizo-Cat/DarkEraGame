@@ -24,6 +24,9 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BlackHole")
+    float CurrentMass;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BlackHole")
 	float InitialMass = 1000.0f;
 
@@ -48,7 +51,4 @@ protected:
 
 	UFUNCTION()
 	void MakeScreenGoDark();
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "BlackHole")
-	float CurrentMass;
 };

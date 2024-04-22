@@ -18,6 +18,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	class UCameraComponent* CameraComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	class USpringArmComponent* CameraBoom;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Parameters")
 	FVector TargetPosition;
 
@@ -36,11 +39,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void MoveCameraRight();
 
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Zoom")
+	float MinZoomDistance;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Zoom")
+	float MaxZoomDistance;
+	
 private:
 	float RotationSpeed;
 	float ZoomSpeed;
-	float MinZoomDistance;
-	float MaxZoomDistance;
 
 	AActor* CameraActor;
 
