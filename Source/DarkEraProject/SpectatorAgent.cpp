@@ -9,7 +9,7 @@
 ASpectatorAgent::ASpectatorAgent()
 {
     PrimaryActorTick.bCanEverTick = true;
-    RotationSpeed = 0.001f;
+    RotationSpeed = 10.0f;
     ZoomSpeed = 20.0f;
     
     CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -73,8 +73,8 @@ void ASpectatorAgent::MoveCameraUp()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        if(GetViewTarget()->GetActorRotation().Pitch > -87)
-            CurrentPosition += GetViewTarget()->GetActorUpVector() * ZoomSpeed;
+        if(GetViewTarget()->GetActorRotation().Pitch > -86)
+            CurrentPosition += GetViewTarget()->GetActorUpVector() * RotationSpeed;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -84,8 +84,8 @@ void ASpectatorAgent::MoveCameraDown()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        if(GetViewTarget()->GetActorRotation().Pitch < 87)
-            CurrentPosition -= GetViewTarget()->GetActorUpVector() * ZoomSpeed;
+        if(GetViewTarget()->GetActorRotation().Pitch < 86)
+            CurrentPosition -= GetViewTarget()->GetActorUpVector() * RotationSpeed;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -95,7 +95,7 @@ void ASpectatorAgent::MoveCameraLeft()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition -= GetViewTarget()->GetActorRightVector() * ZoomSpeed * GetViewTarget()->GetActorUpVector().Z;
+        CurrentPosition -= GetViewTarget()->GetActorRightVector() * RotationSpeed * GetViewTarget()->GetActorUpVector().Z;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
@@ -105,7 +105,7 @@ void ASpectatorAgent::MoveCameraRight()
     if(GetViewTarget() != nullptr)
     {
         FVector CurrentPosition = GetViewTarget()->GetActorLocation();
-        CurrentPosition += GetViewTarget()->GetActorRightVector() * ZoomSpeed * GetViewTarget()->GetActorUpVector().Z;
+        CurrentPosition += GetViewTarget()->GetActorRightVector() * RotationSpeed * GetViewTarget()->GetActorUpVector().Z;
         GetViewTarget()->SetActorLocation(CurrentPosition);
     }
 }
