@@ -10,6 +10,7 @@
 ASpaceShip::ASpaceShip()
 {
 	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CameraComponent"));
+	RootComponent = StaticMeshComponent;
 	PrimaryActorTick.bCanEverTick = true;
 	
 }
