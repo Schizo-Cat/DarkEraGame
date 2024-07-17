@@ -11,18 +11,18 @@
 class DARKERAPROJECT_API SAlphaButton : public SButton {
 	
 public:
-
-	FColor* TextureData;
-
-	int32 ImageWidth;
-
-	int32 ImageHeight;
 	
-	int AdvancedHitAlpha;
+	TArray<uint8> TextureData;
+
+	int32 ImageWidth=0;
+
+	int32 ImageHeight=0;
+	
+	int AdvancedHitAlpha=0;
 
 	bool CachedOverlap;
 
-	SAlphaButton() : TextureData(nullptr), ImageWidth(0), ImageHeight(0), AdvancedHitAlpha(0),
+	SAlphaButton() : ImageWidth(0), ImageHeight(0), AdvancedHitAlpha(0),
 	                 CachedOverlap(false)
 	{
 	}
@@ -58,15 +58,17 @@ class DARKERAPROJECT_API UAlphaButton : public UButton
 	UTexture2D* AdvancedHitTexture;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AdvancedHitTest", meta = (ClampMin = "0.0", ClampMax = "255.0", UIMin = "0.0", UIMax = "255.0")) 
-	int AdvancedHitAlpha;
+	int AdvancedHitAlpha=0;
 
-	UFUNCTION(BlueprintCallable, Category = "AdvancedHitTest") void SetAdvancedHitTexture(UTexture2D* InTexture) 
+	UFUNCTION(BlueprintCallable, Category = "AdvancedHitTest")
+	void SetAdvancedHitTexture(UTexture2D* InTexture) 
 	{
 		AdvancedHitTexture = InTexture;
 		if (MyButton.IsValid()) 
 		(static_cast<SAlphaButton*>(MyButton.Get()))->SetTextureData(AdvancedHitTexture);
 	}
-	UFUNCTION(BlueprintCallable, Category = "AdvancedHitTest") void SetAdvancedHitAlpha(const int InAlpha)
+	UFUNCTION(BlueprintCallable, Category = "AdvancedHitTest")
+	void SetAdvancedHitAlpha(const int InAlpha)
 	{
 		AdvancedHitAlpha = InAlpha;
 		if (MyButton.IsValid()) 

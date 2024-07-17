@@ -9,15 +9,33 @@
 
 void SAlphaButton::SetTextureData(UTexture2D* InTexture)
 {
-	TextureData = static_cast<FColor*>((InTexture->GetPlatformData()->Mips[0]).BulkData.Lock(LOCK_READ_ONLY));
-	ImageHeight = InTexture->GetPlatformData()->SizeY;
-	ImageWidth = InTexture->GetPlatformData()->SizeX;
-	InTexture->GetPlatformData()->Mips[0].BulkData.Unlock();
+	if(InTexture)
+	{
+		// Lock the texture to read its data
+		FTexture2DMipMap& MipMap = InTexture->GetPlatformData()->Mips[0];
+		FColor* ColorData = static_cast<FColor*>(MipMap.BulkData.Lock(LOCK_READ_ONLY));
+		
+		
+		// Get the size of the texture
+		ImageWidth = MipMap.SizeX;
+		ImageHeight = MipMap.SizeY;
+		
+		for(int Y = 0; Y < ImageHeight; Y++)
+		{
+			for(int X = 0; X<ImageWidth; X++)
+			{
+				TextureData.Add(ColorData[(ImageWidth * Y) + X].A);
+			}
+		}
+		
+		// Unlock the texture
+		MipMap.BulkData.Unlock();
+	}
 }
 
 FReply SAlphaButton::OnMouseButtonDown(const FGeometry& MyGeometry, const FPointerEvent& MouseEvent)
 {
-	if (TextureData)
+	if (!TextureData.IsEmpty())
 	{
 		if (CachedOverlap) 
 		{
@@ -30,7 +48,7 @@ FReply SAlphaButton::OnMouseButtonDown(const FGeometry& MyGeometry, const FPoint
 
 FReply SAlphaButton::OnMouseButtonDoubleClick(const FGeometry& InMyGeometry, const FPointerEvent& InMouseEvent) 
 {
-	if (TextureData)
+	if (!TextureData.IsEmpty())
 	{
 		if (CachedOverlap)
 		{
@@ -43,7 +61,7 @@ FReply SAlphaButton::OnMouseButtonDoubleClick(const FGeometry& InMyGeometry, con
 
 FReply SAlphaButton::OnMouseButtonUp(const FGeometry& MyGeometry, const FPointerEvent& MouseEvent)
 {
-	if (TextureData)
+	if (!TextureData.IsEmpty())
 	{
 		if (CachedOverlap && IsPressed())
 		{
@@ -56,24 +74,17 @@ FReply SAlphaButton::OnMouseButtonUp(const FGeometry& MyGeometry, const FPointer
 
 void SAlphaButton::OnMouseEnter(const FGeometry& MyGeometry, const FPointerEvent& MouseEvent)
 {
-	if (TextureData)
+	if (!TextureData.IsEmpty())
 	{
-		if (CachedOverlap)
+		if(IsMouseOverOpaquePixel(MouseEvent))
 		{
+			CachedOverlap = true;
 			return SButton::OnMouseEnter(MyGeometry, MouseEvent);
 		}
 		else
 		{
-			if(IsMouseOverOpaquePixel( MouseEvent))
-			{
-				CachedOverlap = true;
-				return SButton::OnMouseEnter(MyGeometry, MouseEvent);
-			}
-			else
-			{
-				CachedOverlap = false;
-				return;
-			}
+			CachedOverlap = false;
+			return;
 		}
 	}
 	return SButton::OnMouseEnter(MyGeometry, MouseEvent);
@@ -81,7 +92,7 @@ void SAlphaButton::OnMouseEnter(const FGeometry& MyGeometry, const FPointerEvent
 
 void SAlphaButton::OnMouseLeave(const FPointerEvent& MouseEvent) 
 {
-	if(TextureData)
+	if(!TextureData.IsEmpty())
 	{
 		if (CachedOverlap)
 		{
@@ -94,7 +105,8 @@ void SAlphaButton::OnMouseLeave(const FPointerEvent& MouseEvent)
 
 bool SAlphaButton::IsMouseOverOpaquePixel( const FPointerEvent & MouseEvent) const
 {
-	bool OverOpaque = true;
+	if (TextureData.IsEmpty()) return false;
+	
 	
 	const FGeometry MyGeometry = GetCachedGeometry();
 	FVector2D LocalPosition = MyGeometry.AbsoluteToLocal(MouseEvent.GetScreenSpacePosition());
@@ -102,31 +114,19 @@ bool SAlphaButton::IsMouseOverOpaquePixel( const FPointerEvent & MouseEvent) con
 	LocalPosition.Y = floor(LocalPosition.Y);
 	LocalPosition /= MyGeometry.GetLocalSize();
 	
-	if (LocalPosition.X > 1.0f || LocalPosition.Y > 1.0f || LocalPosition.X<0.0f || LocalPosition.Y<0.0f)
-	{
-		return false;
-	}
+	if (LocalPosition.X > 1.0f || LocalPosition.Y > 1.0f || LocalPosition.X<0.0f || LocalPosition.Y<0.0f) return false;
 	
+	LocalPosition.X *= ImageWidth-1;
+	LocalPosition.Y *= ImageHeight-1;
+	const int BufferPosition = ((int)LocalPosition.Y * ImageWidth) + (int)LocalPosition.X;
 	
-	if (!TextureData) 
-	{
-		OverOpaque = false;
-	}
-	else 
-	{
-		LocalPosition.X *= ImageWidth;
-		LocalPosition.Y *= ImageHeight;
-		const int BufferPosition = ((int)LocalPosition.Y * ImageWidth) + (int)LocalPosition.X;
-		if (TextureData[BufferPosition].A <= AdvancedHitAlpha) 
-			OverOpaque = false; 
-	}
-	
-	return OverOpaque;
+	if (TextureData[BufferPosition] <= AdvancedHitAlpha) return false;
+	else return true;
 }
 
 FReply SAlphaButton::OnMouseMove(const FGeometry & MyGeometry, const FPointerEvent & MouseEvent)
 {
-	if (!TextureData) 
+	if (TextureData.IsEmpty())
 		return SButton::OnMouseMove(MyGeometry, MouseEvent);
 
 	if(IsMouseOverOpaquePixel(MouseEvent))
