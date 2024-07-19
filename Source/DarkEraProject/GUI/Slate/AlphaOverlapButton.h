@@ -65,8 +65,8 @@ class DARKERAPROJECT_API UAlphaOverlapButton : public UButton
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AdvancedHitTest", meta = (ClampMin = "0.0", ClampMax = "255.0", UIMin = "0.0", UIMax = "255.0")) 
 	int AdvancedHitAlpha;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AdvancedHitTest")
-	TArray<UAlphaOverlapButton*> OverlapButtons;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AdvancedHitTest")
+	TArray<TObjectPtr<UAlphaOverlapButton>> OverlapButtons;
 	
 	UFUNCTION(BlueprintCallable, Category = "AdvancedHitTest") void SetAdvancedHitTexture(UTexture2D* InTexture) 
 	{

@@ -276,7 +276,7 @@ void UAlphaOverlapButton::SynchronizeProperties()
 			}
 			else
 			{
-				ParentWidget = ParentWidget->GetParent();
+				//ParentWidget = ParentWidget->GetParent();
 				if(!ParentWidget)
 				{
 					ParentFinded=true;
