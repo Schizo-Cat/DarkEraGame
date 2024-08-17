@@ -24,7 +24,13 @@ void SAlphaOverlapButton::SetTextureData(UTexture2D* InTexture)
 		{
 			for(int X = 0; X<ImageWidth; X++)
 			{
-				TextureData.Add(ColorData[(ImageWidth * Y) + X].A);
+				if(!TextureData.IsEmpty())
+				{
+					if(TextureData.IsValidIndex(0))
+					{
+						TextureData.Add(ColorData[(ImageWidth * Y) + X].A);
+					}
+				}
 			}
 		}
 		
