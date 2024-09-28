@@ -9,35 +9,55 @@
 
 void SAlphaOverlapButton::SetTextureData(UTexture2D* InTexture)
 {
-	if(InTexture)
+	if (!InTexture || !InTexture->GetPlatformData())
 	{
-		// Lock the texture to read its data
-		FTexture2DMipMap& MipMap = InTexture->GetPlatformData()->Mips[0];
-		FColor* ColorData = static_cast<FColor*>(MipMap.BulkData.Lock(LOCK_READ_ONLY));
-		
-		
-		// Get the size of the texture
-		ImageWidth = MipMap.SizeX;
-		ImageHeight = MipMap.SizeY;
-		
-		for(int Y = 0; Y < ImageHeight; Y++)
+		UE_LOG(LogTemp, Error, TEXT("Invalid texture or no platform data!"));
+		return;
+	}
+
+	FTexturePlatformData* PlatformData = InTexture->GetPlatformData();
+    
+	// Check if Mips exist and have data
+	if (PlatformData->Mips.Num() > 0)
+	{
+		FTexture2DMipMap& MipMap = PlatformData->Mips[0];
+        
+		if (MipMap.BulkData.GetElementCount() > 0)
 		{
-			for(int X = 0; X<ImageWidth; X++)
+			FColor* ColorData = static_cast<FColor*>(MipMap.BulkData.Lock(LOCK_READ_ONLY));
+			if (ColorData)
 			{
-				if(!TextureData.IsEmpty())
+				// Clear existing data
+				TextureData.Empty();
+
+				// Fill texture data based on alpha values
+				for (int32 Y = 0; Y < ImageHeight; Y++)
 				{
-					if(TextureData.IsValidIndex(0))
+					for (int32 X = 0; X < ImageWidth; X++)
 					{
 						TextureData.Add(ColorData[(ImageWidth * Y) + X].A);
 					}
 				}
+
+				MipMap.BulkData.Unlock();
+			}
+			else
+			{
+				UE_LOG(LogTemp, Error, TEXT("Failed to lock MipMap bulk data!"));
 			}
 		}
-		
-		// Unlock the texture
-		MipMap.BulkData.Unlock();
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("MipMap has no bulk data!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("No Mips in PlatformData!"));
 	}
 }
+
+
 
 FReply SAlphaOverlapButton::OnMouseButtonDown(const FGeometry& MyGeometry, const FPointerEvent& MouseEvent)
 {
@@ -94,15 +114,15 @@ void SAlphaOverlapButton::OnMouseEnter(const FGeometry& MyGeometry, const FPoint
 	}
 	else
 	{
-		if(IsMouseOverOpaquePixel( MouseEvent))
+		if(IsMouseOverOpaquePixel(MouseEvent))
 		{
 			CachedOverlap = true;
 			return SButton::OnMouseEnter(MyGeometry, MouseEvent);
 		}
 		else
 		{
-			CachedOverlap = false;
-			return;
+			// Call base class in case transparency isn't the only factor you want to consider
+			return SButton::OnMouseEnter(MyGeometry, MouseEvent);
 		}
 	}
 }
@@ -228,6 +248,15 @@ FReply SAlphaOverlapButton::OnMouseMove(const FGeometry & MyGeometry, const FPoi
 	return FReply::Handled();
 }
 
+void UAlphaOverlapButton::SlateHandleHovered()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Hovered event triggered in UAlphaOverlapButton"));
+}
+
+void UAlphaOverlapButton::SlateHandleUnhovered()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Unhovered event triggered in UAlphaOverlapButton"));
+}
 
 FCursorReply SAlphaOverlapButton::OnCursorQuery(const FGeometry & MyGeometry, const FPointerEvent & CursorEvent) const
 {
@@ -282,7 +311,7 @@ void UAlphaOverlapButton::SynchronizeProperties()
 			}
 			else
 			{
-				//ParentWidget = ParentWidget->GetParent();
+				ParentWidget = ParentWidget->GetParent();
 				if(!ParentWidget)
 				{
 					ParentFinded=true;
@@ -304,18 +333,33 @@ TSharedRef<SWidget> UAlphaOverlapButton::RebuildWidget()
 		.ButtonStyle(&GetStyle())
 		.ClickMethod(GetClickMethod())
 		.TouchMethod(GetTouchMethod())
-		.IsFocusable(GetIsFocusable())
-		;
+		.IsFocusable(GetIsFocusable());
 
-	if(AdvancedHitTexture) AlphaButton->SetTextureData(AdvancedHitTexture);
-	
+	if (AdvancedHitTexture && AdvancedHitTexture->IsValidLowLevelFast())
+	{
+		if (AdvancedHitTexture->GetPlatformData())
+		{
+			AlphaButton->SetTextureData(AdvancedHitTexture);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("AdvancedHitTexture has no valid platform data!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("AdvancedHitTexture is invalid or null!"));
+	}
+
 	AlphaButton->SetAdvancedHitAlpha(AdvancedHitAlpha);
-	
-
 	MyButton = AlphaButton;
 
-	if (GetChildrenCount() > 0) Cast<UButtonSlot>(GetContentSlot())->BuildSlot(MyButton.ToSharedRef());
+	if (GetChildrenCount() > 0)
+	{
+		Cast<UButtonSlot>(GetContentSlot())->BuildSlot(MyButton.ToSharedRef());
+	}
 
 	return MyButton.ToSharedRef();
 }
+
 #pragma endregion

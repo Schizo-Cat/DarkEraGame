@@ -104,6 +104,12 @@ class DARKERAPROJECT_API UAlphaOverlapButton : public UButton
 		return MyButton;
 	}
 
+	UFUNCTION()
+	void SlateHandleHovered();
+
+	UFUNCTION()
+	void SlateHandleUnhovered();
+	
 	virtual void SynchronizeProperties() override;
 	virtual TSharedRef<SWidget> RebuildWidget() override;
 	
