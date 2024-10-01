@@ -32,6 +32,7 @@ public:
 	{
 	}
 
+	UFUNCTION()
 	void SetTextureData(UTexture2D* InTexture);
 	
 	void SetAdvancedHitAlpha(const int InAlpha) 
@@ -49,6 +50,7 @@ public:
 		return (IsHovered() ? SWidget::GetToolTip() : nullptr);
 	}
 
+	UFUNCTION()
 	bool IsMouseOverOpaquePixel( const FPointerEvent & MouseEvent) const;
 
 	
@@ -60,7 +62,7 @@ class DARKERAPROJECT_API UAlphaOverlapButton : public UButton
 	GENERATED_UCLASS_BODY()
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AdvancedHitTest") 
-	UTexture2D* AdvancedHitTexture;
+	TObjectPtr<UTexture2D> AdvancedHitTexture;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "AdvancedHitTest", meta = (ClampMin = "0.0", ClampMax = "255.0", UIMin = "0.0", UIMax = "255.0")) 
 	int AdvancedHitAlpha;
@@ -105,12 +107,13 @@ class DARKERAPROJECT_API UAlphaOverlapButton : public UButton
 	}
 
 	UFUNCTION()
+	virtual void SynchronizeProperties() override;
+
+	UFUNCTION()
 	void SlateHandleHovered();
 
 	UFUNCTION()
 	void SlateHandleUnhovered();
-	
-	virtual void SynchronizeProperties() override;
 	virtual TSharedRef<SWidget> RebuildWidget() override;
 	
 	int  SiblingIndex;
