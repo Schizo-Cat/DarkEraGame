@@ -9,27 +9,60 @@
 
 void SAlphaOverlapButton::SetTextureData(UTexture2D* InTexture)
 {
-	if(InTexture)
+	if (!InTexture || !InTexture->GetPlatformData())
 	{
-		// Lock the texture to read its data
-		FTexture2DMipMap& MipMap = InTexture->GetPlatformData()->Mips[0];
-		FColor* ColorData = static_cast<FColor*>(MipMap.BulkData.Lock(LOCK_READ_ONLY));
-		
-		
+		UE_LOG(LogTemp, Error, TEXT("Invalid texture or no platform data!"));
+		return;
+	}
+
+	FTexturePlatformData* PlatformData = InTexture->GetPlatformData();
+    
+	if (PlatformData->Mips.Num() <= 0)
+	{
+		UE_LOG(LogTemp, Error, TEXT("No mip maps in texture!"));
+		return;
+	}
+
+	FTexture2DMipMap& MipMap = PlatformData->Mips[0];
+        
+	if (MipMap.BulkData.GetElementCount() <= 0)
+	{
+		UE_LOG(LogTemp, Error, TEXT("No bulk data in mip map!"));
+		return;
+	}
+    
+	// Lock the texture to read its data
+	void* RawData = MipMap.BulkData.Lock(LOCK_READ_ONLY);
+	if (RawData)
+	{
 		// Get the size of the texture
 		ImageWidth = MipMap.SizeX;
 		ImageHeight = MipMap.SizeY;
-		
-		for(int Y = 0; Y < ImageHeight; Y++)
+    
+		// Clear previous data
+		TextureData.Empty(ImageWidth * ImageHeight);
+		TextureData.AddZeroed(ImageWidth * ImageHeight);
+
+		// Copy alpha data
+		FColor* ColorData = static_cast<FColor*>(RawData);
+		for (int32 Y = 0; Y < ImageHeight; Y++)
 		{
-			for(int X = 0; X<ImageWidth; X++)
+			for (int32 X = 0; X < ImageWidth; X++)
 			{
-				TextureData.Add(ColorData[(ImageWidth * Y) + X].A);
+				int32 Index = (ImageWidth * Y) + X;
+				if (Index < TextureData.Num())
+				{
+					TextureData[Index] = ColorData[Index].A;
+				}
 			}
 		}
-		
+    
 		// Unlock the texture
 		MipMap.BulkData.Unlock();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to lock texture data!"));
 	}
 }
 
