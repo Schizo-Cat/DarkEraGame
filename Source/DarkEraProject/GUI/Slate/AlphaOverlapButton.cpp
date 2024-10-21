@@ -5,65 +5,108 @@
 #include "Components/ButtonSlot.h"
 #include "Components/CanvasPanel.h"
 
+#if STATS
+DECLARE_CYCLE_STAT(TEXT("AlphaOverlapButton Lock Texture"), STAT_AlphaOverlapButton_LockTexture, STATGROUP_UI);
+#endif
+
 #pragma region >>> SAlphaOverlapButton <<<
 
 void SAlphaOverlapButton::SetTextureData(UTexture2D* InTexture)
 {
-	if (!InTexture || !InTexture->GetPlatformData())
-	{
-		UE_LOG(LogTemp, Error, TEXT("Invalid texture or no platform data!"));
-		return;
-	}
+    // Clear existing data first
+    TextureData.Empty();
+    ImageWidth = 0;
+    ImageHeight = 0;
 
-	FTexturePlatformData* PlatformData = InTexture->GetPlatformData();
-    
-	if (PlatformData->Mips.Num() <= 0)
-	{
-		UE_LOG(LogTemp, Error, TEXT("No mip maps in texture!"));
-		return;
-	}
+    // Early exit checks
+    if (!InTexture || !InTexture->IsValidLowLevel())
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Invalid or null texture provided"));
+        return;
+    }
 
-	FTexture2DMipMap& MipMap = PlatformData->Mips[0];
-        
-	if (MipMap.BulkData.GetElementCount() <= 0)
-	{
-		UE_LOG(LogTemp, Error, TEXT("No bulk data in mip map!"));
-		return;
-	}
-    
-	// Lock the texture to read its data
-	void* RawData = MipMap.BulkData.Lock(LOCK_READ_ONLY);
-	if (RawData)
-	{
-		// Get the size of the texture
-		ImageWidth = MipMap.SizeX;
-		ImageHeight = MipMap.SizeY;
-    
-		// Clear previous data
-		TextureData.Empty(ImageWidth * ImageHeight);
-		TextureData.AddZeroed(ImageWidth * ImageHeight);
+    // Ensure texture is loaded and has valid resource
+    if (!InTexture->GetResource())
+    {
+        InTexture->UpdateResource();
+        if (!InTexture->GetResource())
+        {
+            UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Failed to create texture resource"));
+            return;
+        }
+    }
 
-		// Copy alpha data
-		FColor* ColorData = static_cast<FColor*>(RawData);
-		for (int32 Y = 0; Y < ImageHeight; Y++)
-		{
-			for (int32 X = 0; X < ImageWidth; X++)
-			{
-				int32 Index = (ImageWidth * Y) + X;
-				if (Index < TextureData.Num())
-				{
-					TextureData[Index] = ColorData[Index].A;
-				}
-			}
-		}
+    // Get platform data safely
+    FTexturePlatformData* PlatformData = InTexture->GetPlatformData();
+    if (!PlatformData || PlatformData->Mips.Num() == 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Invalid platform data or no mips"));
+        return;
+    }
+
+    // Get first mip
+    FTexture2DMipMap& MipMap = PlatformData->Mips[0];
     
-		// Unlock the texture
-		MipMap.BulkData.Unlock();
-	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("Failed to lock texture data!"));
-	}
+    // Validate mip dimensions
+    if (MipMap.SizeX <= 0 || MipMap.SizeY <= 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Invalid mip dimensions"));
+        return;
+    }
+
+    // Lock the bulk data with error checking
+    const int32 BulkDataSize = MipMap.BulkData.GetBulkDataSize();
+    if (BulkDataSize <= 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Invalid bulk data size"));
+        return;
+    }
+
+    void* RawData = MipMap.BulkData.Lock(LOCK_READ_ONLY);
+    if (!RawData)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Failed to lock texture data"));
+        return;
+    }
+
+    // Set dimensions
+    ImageWidth = MipMap.SizeX;
+    ImageHeight = MipMap.SizeY;
+
+    // Calculate total size with overflow check
+    const int64 TotalSize = static_cast<int64>(ImageWidth) * static_cast<int64>(ImageHeight);
+    if (TotalSize > MAX_int32 || TotalSize <= 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("SetTextureData: Invalid total size calculation"));
+        MipMap.BulkData.Unlock();
+        return;
+    }
+
+    // Prepare texture data array
+    TextureData.Empty(TotalSize);
+    TextureData.AddZeroed(TotalSize);
+
+    // Copy data safely
+    FColor* ColorData = static_cast<FColor*>(RawData);
+    if (ColorData)
+    {
+        for (int32 Y = 0; Y < ImageHeight; Y++)
+        {
+            for (int32 X = 0; X < ImageWidth; X++)
+            {
+                const int32 Index = (Y * ImageWidth) + X;
+                if (Index >= 0 && Index < TotalSize)
+                {
+                    TextureData[Index] = ColorData[Index].A;
+                }
+            }
+        }
+    }
+
+    // Unlock the data
+    MipMap.BulkData.Unlock();
+
+    UE_LOG(LogTemp, Log, TEXT("SetTextureData: Successfully processed texture %dx%d"), ImageWidth, ImageHeight);
 }
 
 FReply SAlphaOverlapButton::OnMouseButtonDown(const FGeometry& MyGeometry, const FPointerEvent& MouseEvent)
@@ -331,6 +374,8 @@ void UAlphaOverlapButton::SlateHandleUnhovered()
 
 TSharedRef<SWidget> UAlphaOverlapButton::RebuildWidget()
 {
+	MyButton.Reset(); // Reset the existing button first
+
 	const TSharedPtr<SAlphaOverlapButton> AlphaButton = SNew(SAlphaOverlapButton)
 		.OnClicked(BIND_UOBJECT_DELEGATE(FOnClicked, SlateHandleClicked))
 		.OnPressed(BIND_UOBJECT_DELEGATE(FSimpleDelegate, SlateHandlePressed))
@@ -342,20 +387,33 @@ TSharedRef<SWidget> UAlphaOverlapButton::RebuildWidget()
 		.TouchMethod(GetTouchMethod())
 		.IsFocusable(GetIsFocusable());
 
-	if (AdvancedHitTexture && AdvancedHitTexture->IsValidLowLevelFast())
+	// Make sure the texture is loaded and ready
+	if (AdvancedHitTexture && AdvancedHitTexture->IsValidLowLevel())
 	{
-		if (AdvancedHitTexture->GetPlatformData())
+		// If the texture is streamable, wait for it
+		if (AdvancedHitTexture->IsStreamable())
+		{
+			AdvancedHitTexture->WaitForStreaming();
+		}
+
+		// Force resource creation if needed
+		if (!AdvancedHitTexture->GetResource())
+		{
+			AdvancedHitTexture->UpdateResource();
+		}
+
+		// Double check everything is valid before setting the texture data
+		if (AdvancedHitTexture->GetResource() && 
+			AdvancedHitTexture->GetPlatformData() && 
+			AdvancedHitTexture->GetPlatformData()->Mips.Num() > 0)
 		{
 			AlphaButton->SetTextureData(AdvancedHitTexture);
 		}
 		else
 		{
-			UE_LOG(LogTemp, Warning, TEXT("AdvancedHitTexture has no valid platform data!"));
+			UE_LOG(LogTemp, Warning, TEXT("RebuildWidget: Texture resources not ready for %s"), 
+				*AdvancedHitTexture->GetName());
 		}
-	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("AdvancedHitTexture is invalid or null!"));
 	}
 
 	AlphaButton->SetAdvancedHitAlpha(AdvancedHitAlpha);
