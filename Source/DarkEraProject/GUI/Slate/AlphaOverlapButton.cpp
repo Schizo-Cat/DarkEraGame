@@ -147,7 +147,7 @@ FReply SAlphaOverlapButton::OnMouseButtonUp(const FGeometry& MyGeometry, const F
 	{
 		for (auto Btn : OverlapButtons)
 		{
-			if (Btn.IsValid() && Btn->CachedOverlap || Btn->IsPressed())
+			if ((Btn.IsValid() && Btn->CachedOverlap) || Btn->IsPressed())
 			{
 				Btn->SButton::OnMouseButtonUp(Btn->GetCachedGeometry(), MouseEvent);
 			}
