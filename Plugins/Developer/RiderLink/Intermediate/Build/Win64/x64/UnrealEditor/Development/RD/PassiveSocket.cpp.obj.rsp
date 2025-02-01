@@ -1,8 +1,10 @@
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\PassiveSocket.cpp"
 /FI"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Definitions.h"
 /Fo"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PassiveSocket.cpp.obj"
+/experimental:log "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PassiveSocket.cpp.sarif"
 /sourceDependencies "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PassiveSocket.cpp.dep.json"
 @"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RD.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
@@ -21,6 +23,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF

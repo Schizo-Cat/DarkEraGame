@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RiderBlueprint.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
 			"BlueprintProvider.cpp.obj",
 			"RiderBlueprint.cpp.obj"
 		]

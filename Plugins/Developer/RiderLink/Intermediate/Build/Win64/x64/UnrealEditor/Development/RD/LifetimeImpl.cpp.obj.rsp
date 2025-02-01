@@ -1,8 +1,10 @@
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.cpp"
 /FI"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Definitions.h"
 /Fo"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeImpl.cpp.obj"
+/experimental:log "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeImpl.cpp.sarif"
 /sourceDependencies "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeImpl.cpp.dep.json"
 @"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RD.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
@@ -21,6 +23,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF

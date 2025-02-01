@@ -1,8 +1,10 @@
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\src\file_sinks.cpp"
 /FI"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Definitions.h"
 /Fo"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\file_sinks.cpp.obj"
+/experimental:log "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\file_sinks.cpp.sarif"
 /sourceDependencies "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\file_sinks.cpp.dep.json"
 @"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RD.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
@@ -21,6 +23,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF

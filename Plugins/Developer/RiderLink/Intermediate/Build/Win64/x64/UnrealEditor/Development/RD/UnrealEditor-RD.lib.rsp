@@ -61,5 +61,6 @@
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\fmt.cpp.obj"
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\spdlog.cpp.obj"
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\stdout_sinks.cpp.obj"
+"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PerModuleInline.gen.cpp.obj"
 "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Default.rc2.res"
 /OUT:"C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\UnrealEditor-RD.lib"

@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RiderLink.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
 			"ProtocolFactory.cpp.obj",
 			"RiderLink.cpp.obj",
 			"UE4TypesMarshallers.cpp.obj",
