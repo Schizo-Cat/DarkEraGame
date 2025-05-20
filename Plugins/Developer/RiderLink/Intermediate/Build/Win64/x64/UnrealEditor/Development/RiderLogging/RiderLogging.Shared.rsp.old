@@ -24,8 +24,8 @@
 /I "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Source\RiderLink\Public"
 /I "C:\Users\goggi\Documents\Unreal Projects\DarkEraGame\Plugins\Developer\RiderLink\Source\RiderBlueprint\Public"
 /external:W0
-/external:I "ThirdParty\mimalloc\include"
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
+/external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
