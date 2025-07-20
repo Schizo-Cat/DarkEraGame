@@ -1,0 +1,2626 @@
+﻿# Game English translation.
+# Fill out your copyright notice in the Description page of Project Settings.
+# 
+msgid ""
+msgstr "" Российский"
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2025-07-20 17:19\n"
+"PO-Revision-Date: 2025-07-20 17:19\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	A67C2DA643BDD502823719A64967A49A
+#. SourceLocation:	/Game/Core/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship [Script Bytecode]
+#: /Game/Core/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship [Script Bytecode]
+msgctxt ",A67C2DA643BDD502823719A64967A49A"
+msgid "You don't have \"Energy Extraction\" technology to extract this object"
+msgstr "You don't have \"Energy Extraction\" technology to extract this object"
+
+#. Key:	DE5D4B55455356ABF258B49FF23AAB27
+#. SourceLocation:	/Game/Core/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship [Script Bytecode]
+#: /Game/Core/Blueprints/BP_Ship.BP_Ship_C:ExecuteUbergraph_BP_Ship [Script Bytecode]
+msgctxt ",DE5D4B55455356ABF258B49FF23AAB27"
+msgid "Destruction Faction"
+msgstr "Destruction Faction"
+
+#. Key:	AFE5777147C3316055BC0AAF51E7BCB0
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",AFE5777147C3316055BC0AAF51E7BCB0"
+msgid "SingularityMode"
+msgstr "SingularityMode"
+
+#. Key:	8C60FE3D493BF9373A308397D844362E
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",8C60FE3D493BF9373A308397D844362E"
+msgid "FightMode"
+msgstr "FightMode"
+
+#. Key:	57FC4B1E4826A1BBE1F64480F504F7F7
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",57FC4B1E4826A1BBE1F64480F504F7F7"
+msgid "TravelMode"
+msgstr "TravelMode"
+
+#. Key:	76A5EB2449D41191CC1BBFAE0442225D
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",76A5EB2449D41191CC1BBFAE0442225D"
+msgid "DeathState"
+msgstr "DeathState"
+
+#. Key:	ADCF3CF44A1C09D7F92EE9851497016E
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",ADCF3CF44A1C09D7F92EE9851497016E"
+msgid "ResearchMode"
+msgstr "ResearchMode"
+
+#. Key:	91A9C48849CE63D9CDE2C89559D048A9
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(5 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(5 - Value).DisplayNameMap
+msgctxt ",91A9C48849CE63D9CDE2C89559D048A9"
+msgid "StandartMode"
+msgstr "StandartMode"
+
+#. Key:	FEF127AB4AA05C888309218265F20BC3
+#. SourceLocation:	/Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(6 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_GameStatus.E_GameStatus.DisplayNameMap(6 - Value).DisplayNameMap
+msgctxt ",FEF127AB4AA05C888309218265F20BC3"
+msgid "BuildMode"
+msgstr "BuildMode"
+
+#. Key:	064283254F08C86F5C6419924C595928
+#. SourceLocation:	/Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",064283254F08C86F5C6419924C595928"
+msgid "SCL_Music"
+msgstr "SCL_Music"
+
+#. Key:	48AC25DA4F696BE55FAE8BB95E31D7D2
+#. SourceLocation:	/Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",48AC25DA4F696BE55FAE8BB95E31D7D2"
+msgid "SCL_SFX"
+msgstr "SCL_SFX"
+
+#. Key:	22F413644643B736195BDD9531032E9B
+#. SourceLocation:	/Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/Core/Enums/E_SoundClasses.E_SoundClasses.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",22F413644643B736195BDD9531032E9B"
+msgid "SCL_Voice"
+msgstr "SCL_Voice"
+
+#. Key:	469583724AEAC8F73BE5F5930A3FD674
+#. SourceLocation:	/Game/Core/Player/BP_SpacePlayerController.BP_SpacePlayerController_C:ExecuteUbergraph_BP_SpacePlayerController [Script Bytecode]
+#: /Game/Core/Player/BP_SpacePlayerController.BP_SpacePlayerController_C:ExecuteUbergraph_BP_SpacePlayerController [Script Bytecode]
+msgctxt ",469583724AEAC8F73BE5F5930A3FD674"
+msgid "Critically low mass!"
+msgstr "Critically low mass!"
+
+#. Key:	E018B8C04785F57C804775BF6743A6E6
+#. SourceLocation:	/Game/Journal/WBP_JournalWidget.Default__WBP_JournalWidget_C.NoEntriesText
+#: /Game/Journal/WBP_JournalWidget.Default__WBP_JournalWidget_C.NoEntriesText
+msgctxt ",E018B8C04785F57C804775BF6743A6E6"
+msgid "No found entries yet"
+msgstr "No found entries yet"
+
+#. Key:	3FE43910418DE90584E0E7BAFD1232D8
+#. SourceLocation:	/Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock.Text
+#: /Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",3FE43910418DE90584E0E7BAFD1232D8"
+msgid "Space Lore"
+msgstr "Space Lore"
+
+#. Key:	B98F5B7E4384DBB0EAA423A1DADDAD7B
+#. SourceLocation:	/Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",B98F5B7E4384DBB0EAA423A1DADDAD7B"
+msgid "Science"
+msgstr "Science"
+
+#. Key:	3D3B424847D7CC4CD08234837D3222D2
+#. SourceLocation:	/Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/Journal/WBP_JournalWidget.WBP_JournalWidget_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",3D3B424847D7CC4CD08234837D3222D2"
+msgid "Close Journal"
+msgstr "Close Journal"
+
+#. Key:	B66A417147BEED45078629B2B47CD868
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/DemoRoom/BluePrint/BP_DemoDisplay.Default__BP_DemoDisplay_C.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/DemoRoom/BluePrint/BP_DemoDisplay.Default__BP_DemoDisplay_C.Description
+msgctxt ",B66A417147BEED45078629B2B47CD868"
+msgid "Default Text Description"
+msgstr "Default Text Description"
+
+#. Key:	ADBDC2CF4372E6E6391D5398183B94AA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/DemoRoom/BluePrint/BP_DemoDisplay.Default__BP_DemoDisplay_C.Number
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/DemoRoom/BluePrint/BP_DemoDisplay.Default__BP_DemoDisplay_C.Number
+msgctxt ",ADBDC2CF4372E6E6391D5398183B94AA"
+msgid "1. A"
+msgstr "1. A"
+
+#. Key:	1F2C97E3414A372AA17F4B89416A2321
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay11.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay11.Description
+msgctxt ",1F2C97E3414A372AA17F4B89416A2321"
+msgid "Big A"
+msgstr "Big A"
+
+#. Key:	1CC247F943444F7E792DE5BD3DF760DB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay11.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay11.NODE_AddTextRenderComponent-0.Text
+msgctxt ",1CC247F943444F7E792DE5BD3DF760DB"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	180B4EAE4F260619C21987A68A95C2D6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay12.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay12.Description
+msgctxt ",180B4EAE4F260619C21987A68A95C2D6"
+msgid "Molotov"
+msgstr "Molotov"
+
+#. Key:	B4387C92475C6729D44420BFB3D507C4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay12.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay12.NODE_AddTextRenderComponent-0.Text
+msgctxt ",B4387C92475C6729D44420BFB3D507C4"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	22685A234DBE173D7EF1C5BF62E5F86E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay13.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay13.Description
+msgctxt ",22685A234DBE173D7EF1C5BF62E5F86E"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	4D8001A44D59C42970940C9074FE6458
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay13.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay13.NODE_AddTextRenderComponent-0.Text
+msgctxt ",4D8001A44D59C42970940C9074FE6458"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	D756E0BA4FBCC39E1522998D67B2296B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay14.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay14.Description
+msgctxt ",D756E0BA4FBCC39E1522998D67B2296B"
+msgid "Concrete"
+msgstr "Concrete"
+
+#. Key:	D2AAAD04477592EB2318F894B848C7B1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay14.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay14.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D2AAAD04477592EB2318F894B848C7B1"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	6E168D984BC90BE879544388A17B3461
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay15.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay15.Description
+msgctxt ",6E168D984BC90BE879544388A17B3461"
+msgid "Glass"
+msgstr "Glass"
+
+#. Key:	13F532314F49C90B1212B89E908755F2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay15.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay15.NODE_AddTextRenderComponent-0.Text
+msgctxt ",13F532314F49C90B1212B89E908755F2"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	812C43F340284CE9013358ABD208D708
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay16.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay16.Description
+msgctxt ",812C43F340284CE9013358ABD208D708"
+msgid "Metal"
+msgstr "Metal"
+
+#. Key:	BCDFB5474611FC01665829A198939FD8
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay16.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay16.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BCDFB5474611FC01665829A198939FD8"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	1A6A0E0B4E9C10F40C753BB21EC18850
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay17.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay17.Description
+msgctxt ",1A6A0E0B4E9C10F40C753BB21EC18850"
+msgid "Wood"
+msgstr "Wood"
+
+#. Key:	F209B188458BFF778C5C66A317F0DF1E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay17.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay17.NODE_AddTextRenderComponent-0.Text
+msgctxt ",F209B188458BFF778C5C66A317F0DF1E"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	5FE5E641462284B9282F208C4267A5C4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay18.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay18.Description
+msgctxt ",5FE5E641462284B9282F208C4267A5C4"
+msgid "Electric"
+msgstr "Electric"
+
+#. Key:	C36627CD4F9DF069981F4FA64B0D0C32
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay18.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay18.NODE_AddTextRenderComponent-0.Text
+msgctxt ",C36627CD4F9DF069981F4FA64B0D0C32"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	FF4641564C68B2E9AE35CBA35FE4327A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay19.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay19.Description
+msgctxt ",FF4641564C68B2E9AE35CBA35FE4327A"
+msgid "Ceramic"
+msgstr "Ceramic"
+
+#. Key:	A41BC9AC4F1403B522BAF4A3876D1271
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay19.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay19.NODE_AddTextRenderComponent-0.Text
+msgctxt ",A41BC9AC4F1403B522BAF4A3876D1271"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	72A070E5487CD69110C18E91E300BEA9
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay20.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay20.Description
+msgctxt ",72A070E5487CD69110C18E91E300BEA9"
+msgid "Building A"
+msgstr "Building A"
+
+#. Key:	6C14EDD946E7F2502EDC0A80FEC8E7C9
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay20.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay20.NODE_AddTextRenderComponent-0.Text
+msgctxt ",6C14EDD946E7F2502EDC0A80FEC8E7C9"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	CF24A8494221EF32768FB78FED52D3DC
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay21.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay21.Description
+msgctxt ",CF24A8494221EF32768FB78FED52D3DC"
+msgid "Building B"
+msgstr "Building B"
+
+#. Key:	3E52DA0E41D8C547ECE0FDA5777535D3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay21.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay21.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3E52DA0E41D8C547ECE0FDA5777535D3"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	D82D3F144A0CA23C00D38585A3B5DD60
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay22.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay22.Description
+msgctxt ",D82D3F144A0CA23C00D38585A3B5DD60"
+msgid "Leak A"
+msgstr "Leak A"
+
+#. Key:	F292B5704E0589F88B7B31ABBF550113
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay22.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay22.NODE_AddTextRenderComponent-0.Text
+msgctxt ",F292B5704E0589F88B7B31ABBF550113"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	CA10FB6E4FEF4DEF1A77B8AF5CF28950
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay23.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay23.Description
+msgctxt ",CA10FB6E4FEF4DEF1A77B8AF5CF28950"
+msgid "Leak B"
+msgstr "Leak B"
+
+#. Key:	133DD2F84B2061ECD8C684BE9211554C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay23.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay23.NODE_AddTextRenderComponent-0.Text
+msgctxt ",133DD2F84B2061ECD8C684BE9211554C"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	DE1A53854E5088DC552A369621F18274
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay24.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay24.Description
+msgctxt ",DE1A53854E5088DC552A369621F18274"
+msgid "Dripping A"
+msgstr "Dripping A"
+
+#. Key:	732F42E5434AE83B4F1867B2D8B7A5B0
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay24.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay24.NODE_AddTextRenderComponent-0.Text
+msgctxt ",732F42E5434AE83B4F1867B2D8B7A5B0"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	A364B63E414013123282179E5503E025
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay25.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay25.Description
+msgctxt ",A364B63E414013123282179E5503E025"
+msgid "Dripping B"
+msgstr "Dripping B"
+
+#. Key:	E2D52C6546035606A1FDA2A125928A96
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay25.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay25.NODE_AddTextRenderComponent-0.Text
+msgctxt ",E2D52C6546035606A1FDA2A125928A96"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	EF7B16314D46C2D41E8EF8BC8E4A3EF7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay26.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay26.Description
+msgctxt ",EF7B16314D46C2D41E8EF8BC8E4A3EF7"
+msgid "Big"
+msgstr "Big"
+
+#. Key:	8E2799794BB044C68BFA409DD43104DC
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay26.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay26.NODE_AddTextRenderComponent-0.Text
+msgctxt ",8E2799794BB044C68BFA409DD43104DC"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	AF36D78D4C30E29BE59A98BA5A85EDB8
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay27.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay27.Description
+msgctxt ",AF36D78D4C30E29BE59A98BA5A85EDB8"
+msgid "Wall"
+msgstr "Wall"
+
+#. Key:	E9C6BDB4422F56F960475893D630E394
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay27.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay27.NODE_AddTextRenderComponent-0.Text
+msgctxt ",E9C6BDB4422F56F960475893D630E394"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	98D0F62C4FEFDA2336837F971998FE11
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay28.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay28.Description
+msgctxt ",98D0F62C4FEFDA2336837F971998FE11"
+msgid "Small"
+msgstr "Small"
+
+#. Key:	47BBB6CC49CFD2FECD6F57AA5FCF3296
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay28.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay28.NODE_AddTextRenderComponent-0.Text
+msgctxt ",47BBB6CC49CFD2FECD6F57AA5FCF3296"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	09C629374DC7D74FC9A7D0A4EDCA1D9C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay29.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay29.Description
+msgctxt ",09C629374DC7D74FC9A7D0A4EDCA1D9C"
+msgid "Bubbles A"
+msgstr "Bubbles A"
+
+#. Key:	A71CB7764A60D70671D8EAA6D683D2EC
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay29.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay29.NODE_AddTextRenderComponent-0.Text
+msgctxt ",A71CB7764A60D70671D8EAA6D683D2EC"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	B0D707394526154068B05EA109F732B6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay3.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay3.Description
+msgctxt ",B0D707394526154068B05EA109F732B6"
+msgid "Fish A"
+msgstr "Fish A"
+
+#. Key:	CE50817740FC63546A7D26A1DEC924AA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay3.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay3.NODE_AddTextRenderComponent-0.Text
+msgctxt ",CE50817740FC63546A7D26A1DEC924AA"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	0C2B6EF8428224FD413C14A6561BEAD1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay30.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay30.Description
+msgctxt ",0C2B6EF8428224FD413C14A6561BEAD1"
+msgid "A"
+msgstr "A"
+
+#. Key:	BF6709FB47C4851CFE3ADDB19C15AC43
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay30.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay30.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BF6709FB47C4851CFE3ADDB19C15AC43"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	E36782D543D4D5B4E0DF1CAEB7D15D13
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay31.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay31.Description
+msgctxt ",E36782D543D4D5B4E0DF1CAEB7D15D13"
+msgid "B"
+msgstr "B"
+
+#. Key:	9C07803F45FD6489457CB4A7EA948525
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay31.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay31.NODE_AddTextRenderComponent-0.Text
+msgctxt ",9C07803F45FD6489457CB4A7EA948525"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	0C96E0194B741133108D37B3B30FE277
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay32.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay32.Description
+msgctxt ",0C96E0194B741133108D37B3B30FE277"
+msgid "C"
+msgstr "C"
+
+#. Key:	91C8B95C4E299FE97441E887615B25CF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay32.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay32.NODE_AddTextRenderComponent-0.Text
+msgctxt ",91C8B95C4E299FE97441E887615B25CF"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	D0540BB94837D05F5F0B38B76DF1597E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay33.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay33.Description
+msgctxt ",D0540BB94837D05F5F0B38B76DF1597E"
+msgid "D"
+msgstr "D"
+
+#. Key:	7D27685B483442FE44064AB830879FA8
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay33.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay33.NODE_AddTextRenderComponent-0.Text
+msgctxt ",7D27685B483442FE44064AB830879FA8"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	BAEBBF4041A7DDEDAC0558932E76C2EF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay34.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay34.Description
+msgctxt ",BAEBBF4041A7DDEDAC0558932E76C2EF"
+msgid "E"
+msgstr "E"
+
+#. Key:	1C3CCC5A493FBDC925371F954EDD4518
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay34.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay34.NODE_AddTextRenderComponent-0.Text
+msgctxt ",1C3CCC5A493FBDC925371F954EDD4518"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	5D5D7FD64EB7816D97B330AD0D130172
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay35.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay35.Description
+msgctxt ",5D5D7FD64EB7816D97B330AD0D130172"
+msgid "F"
+msgstr "F"
+
+#. Key:	37D0DC134DF4769641DB5BBA11156224
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay35.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay35.NODE_AddTextRenderComponent-0.Text
+msgctxt ",37D0DC134DF4769641DB5BBA11156224"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	10ACDAEB470BD8F687AC418C7FDA1233
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay36.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay36.Description
+msgctxt ",10ACDAEB470BD8F687AC418C7FDA1233"
+msgid "A"
+msgstr "A"
+
+#. Key:	B558DC94454A5646F172B18C01A573BF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay36.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay36.NODE_AddTextRenderComponent-0.Text
+msgctxt ",B558DC94454A5646F172B18C01A573BF"
+msgid "Embers"
+msgstr "Embers"
+
+#. Key:	961739984FD9A27E84356D823D01130F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay37.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay37.Description
+msgctxt ",961739984FD9A27E84356D823D01130F"
+msgid "A"
+msgstr "A"
+
+#. Key:	78474ECE4B4229CA18FD98A408D6CC52
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay37.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay37.NODE_AddTextRenderComponent-0.Text
+msgctxt ",78474ECE4B4229CA18FD98A408D6CC52"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	074401794CF802DD33002888C5248BA4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay38.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay38.Description
+msgctxt ",074401794CF802DD33002888C5248BA4"
+msgid "Default"
+msgstr "Default"
+
+#. Key:	BBDD50944C75F982D023258DCD6E6ADA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay38.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay38.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BBDD50944C75F982D023258DCD6E6ADA"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	B442A0614C3AC45EEB5387850690D01F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay39.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay39.Description
+msgctxt ",B442A0614C3AC45EEB5387850690D01F"
+msgid "B"
+msgstr "B"
+
+#. Key:	C093EE6D4C11B06F26E58B9D4FDCFB2B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay39.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay39.NODE_AddTextRenderComponent-0.Text
+msgctxt ",C093EE6D4C11B06F26E58B9D4FDCFB2B"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	F5DF499C4A88A58C15752DB429158695
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay4.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay4.Description
+msgctxt ",F5DF499C4A88A58C15752DB429158695"
+msgid "Fish B"
+msgstr "Fish B"
+
+#. Key:	0C72CDF1436F77F890E37681527CC1EE
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay4.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay4.NODE_AddTextRenderComponent-0.Text
+msgctxt ",0C72CDF1436F77F890E37681527CC1EE"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	63B109694405A5E1910002BB9877357E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay40.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay40.Description
+msgctxt ",63B109694405A5E1910002BB9877357E"
+msgid "C"
+msgstr "C"
+
+#. Key:	8414FEAA4570B27E3142748DAEC5BCA2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay40.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay40.NODE_AddTextRenderComponent-0.Text
+msgctxt ",8414FEAA4570B27E3142748DAEC5BCA2"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	1E0FD3D54876B5A98D31619D5D2797C7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay41.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay41.Description
+msgctxt ",1E0FD3D54876B5A98D31619D5D2797C7"
+msgid "D"
+msgstr "D"
+
+#. Key:	2FAC26F445046D5530B68CA943C38B44
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay41.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay41.NODE_AddTextRenderComponent-0.Text
+msgctxt ",2FAC26F445046D5530B68CA943C38B44"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	D83A82EF404EA179166536A0CD80ABA4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay42.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay42.Description
+msgctxt ",D83A82EF404EA179166536A0CD80ABA4"
+msgid "A"
+msgstr "A"
+
+#. Key:	7F18CD43430EB5781190D3B016150186
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay42.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay42.NODE_AddTextRenderComponent-0.Text
+msgctxt ",7F18CD43430EB5781190D3B016150186"
+msgid "Steam"
+msgstr "Steam"
+
+#. Key:	7915048344B330517877999350B0C885
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay43.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay43.Description
+msgctxt ",7915048344B330517877999350B0C885"
+msgid "F"
+msgstr "F"
+
+#. Key:	B168AC974A37491116BD95AB04CE077A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay43.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay43.NODE_AddTextRenderComponent-0.Text
+msgctxt ",B168AC974A37491116BD95AB04CE077A"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	145CA04A4FEE935A5E8CCB879D47177E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay44.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay44.Description
+msgctxt ",145CA04A4FEE935A5E8CCB879D47177E"
+msgid "Ceramic"
+msgstr "Ceramic"
+
+#. Key:	6BDAD2AA41A20B094BFF538DDCF9E8DD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay44.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay44.NODE_AddTextRenderComponent-0.Text
+msgctxt ",6BDAD2AA41A20B094BFF538DDCF9E8DD"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	67263C634E09CA9CE42FD09C8C3E42F1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay45.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay45.Description
+msgctxt ",67263C634E09CA9CE42FD09C8C3E42F1"
+msgid "Concrete"
+msgstr "Concrete"
+
+#. Key:	3BB210594CB0F36EC8950C9B847FC25A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay45.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay45.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3BB210594CB0F36EC8950C9B847FC25A"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	E768657B47A62702937D168276562553
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay46.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay46.Description
+msgctxt ",E768657B47A62702937D168276562553"
+msgid "Asphalt"
+msgstr "Asphalt"
+
+#. Key:	BD99783343D4B5A618421C884ECEC6EA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay46.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay46.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BD99783343D4B5A618421C884ECEC6EA"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	F591CBB9406E7456FD4C76AFE273815E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay47.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay47.Description
+msgctxt ",F591CBB9406E7456FD4C76AFE273815E"
+msgid "Brick"
+msgstr "Brick"
+
+#. Key:	AE5A683843DD6F54226CFAB8DDA396EA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay47.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay47.NODE_AddTextRenderComponent-0.Text
+msgctxt ",AE5A683843DD6F54226CFAB8DDA396EA"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	5C40A542450731B6F68232BC26759BFD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay48.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay48.Description
+msgctxt ",5C40A542450731B6F68232BC26759BFD"
+msgid "Bubbles B"
+msgstr "Bubbles B"
+
+#. Key:	8622DBAC4C57E2252A47249997895DA1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay48.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay48.NODE_AddTextRenderComponent-0.Text
+msgctxt ",8622DBAC4C57E2252A47249997895DA1"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	8834F44F4A01F27EB3ADD6BE83AEBBF6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay49.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay49.Description
+msgctxt ",8834F44F4A01F27EB3ADD6BE83AEBBF6"
+msgid "Leather"
+msgstr "Leather"
+
+#. Key:	EE19F7004C66CCC24506C5BDBE234977
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay49.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay49.NODE_AddTextRenderComponent-0.Text
+msgctxt ",EE19F7004C66CCC24506C5BDBE234977"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	F103C7D74DB9B2C284F00486A71E7411
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay5.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay5.Description
+msgctxt ",F103C7D74DB9B2C284F00486A71E7411"
+msgid "Butterfly"
+msgstr "Butterfly"
+
+#. Key:	B8956E8E4E2D82771293028368CF1841
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay5.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay5.NODE_AddTextRenderComponent-0.Text
+msgctxt ",B8956E8E4E2D82771293028368CF1841"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	35AE6FA44DC6662B0CDA96936C83E85A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay50.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay50.Description
+msgctxt ",35AE6FA44DC6662B0CDA96936C83E85A"
+msgid "Paper"
+msgstr "Paper"
+
+#. Key:	21F0FCC140AD552227A9AD9719327481
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay50.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay50.NODE_AddTextRenderComponent-0.Text
+msgctxt ",21F0FCC140AD552227A9AD9719327481"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	7D1128964ABEA115BC88919EA5068EE7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay51.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay51.Description
+msgctxt ",7D1128964ABEA115BC88919EA5068EE7"
+msgid "Rubber"
+msgstr "Rubber"
+
+#. Key:	8E843D8D4F9B1F41A833E281DE2AC767
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay51.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay51.NODE_AddTextRenderComponent-0.Text
+msgctxt ",8E843D8D4F9B1F41A833E281DE2AC767"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	378829974294ED2A298699AFCE8C6297
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay52.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay52.Description
+msgctxt ",378829974294ED2A298699AFCE8C6297"
+msgid "Vegetation"
+msgstr "Vegetation"
+
+#. Key:	F04C9B7343A030904811A98C57A8BFFB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay52.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay52.NODE_AddTextRenderComponent-0.Text
+msgctxt ",F04C9B7343A030904811A98C57A8BFFB"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	9B6AE9FB4A163A5E2B3EED98FE37E928
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay53.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay53.Description
+msgctxt ",9B6AE9FB4A163A5E2B3EED98FE37E928"
+msgid "G"
+msgstr "G"
+
+#. Key:	7E44ADA0481FA9AABC1F93A55B38EBA7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay53.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay53.NODE_AddTextRenderComponent-0.Text
+msgctxt ",7E44ADA0481FA9AABC1F93A55B38EBA7"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	6DF9FA46411E59C299D473A5C1CBDA25
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay56.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay56.Description
+msgctxt ",6DF9FA46411E59C299D473A5C1CBDA25"
+msgid "Flamethrower"
+msgstr "Flamethrower"
+
+#. Key:	640790624B94AC8570A2A696B93F70C6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay56.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay56.NODE_AddTextRenderComponent-0.Text
+msgctxt ",640790624B94AC8570A2A696B93F70C6"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	A3724881427C25D8054C4487132CB8E8
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay58.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay58.Description
+msgctxt ",A3724881427C25D8054C4487132CB8E8"
+msgid "Big B"
+msgstr "Big B"
+
+#. Key:	5EA85ED743C59B69E37C9C9239A2B50C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay58.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay58.NODE_AddTextRenderComponent-0.Text
+msgctxt ",5EA85ED743C59B69E37C9C9239A2B50C"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	6FE7E9AA4B408592B70018B9A6DBCAD2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay59_847.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay59_847.Description
+msgctxt ",6FE7E9AA4B408592B70018B9A6DBCAD2"
+msgid "Ice"
+msgstr "Ice"
+
+#. Key:	89DDAAD94F70F9A321734686075CDEAC
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay59_847.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay59_847.NODE_AddTextRenderComponent-0.Text
+msgctxt ",89DDAAD94F70F9A321734686075CDEAC"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	2DFC7B07496B08992A3054B98C507A71
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay6.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay6.Description
+msgctxt ",2DFC7B07496B08992A3054B98C507A71"
+msgid "Fireflies"
+msgstr "Fireflies"
+
+#. Key:	6173B3F745A230E314EA56A725F6A3FA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay6.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay6.NODE_AddTextRenderComponent-0.Text
+msgctxt ",6173B3F745A230E314EA56A725F6A3FA"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	8DBD94BF4FB589E9BB2C1EAF55861688
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay60.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay60.Description
+msgctxt ",8DBD94BF4FB589E9BB2C1EAF55861688"
+msgid "Side"
+msgstr "Side"
+
+#. Key:	825E731C4D2AA2EDF673509D7075E998
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay60.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay60.NODE_AddTextRenderComponent-0.Text
+msgctxt ",825E731C4D2AA2EDF673509D7075E998"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	8E9538BA40C9F0E149EE44914D8ED639
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay61.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay61.Description
+msgctxt ",8E9538BA40C9F0E149EE44914D8ED639"
+msgid "Big C"
+msgstr "Big C"
+
+#. Key:	25FBA1BA417C7F735B40148098232071
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay61.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay61.NODE_AddTextRenderComponent-0.Text
+msgctxt ",25FBA1BA417C7F735B40148098232071"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	5598F7B741D04D58B20EF9AD1DFF0B09
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay7.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay7.Description
+msgctxt ",5598F7B741D04D58B20EF9AD1DFF0B09"
+msgid "Leaves Vortex"
+msgstr "Leaves Vortex"
+
+#. Key:	3CD6FF9D4AC3EAF3445CACB903FEBBF3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay7.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay7.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3CD6FF9D4AC3EAF3445CACB903FEBBF3"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	A6C201604DAF6838794B1B9A78AEAB0F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay8.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay8.Description
+msgctxt ",A6C201604DAF6838794B1B9A78AEAB0F"
+msgid "Dandelion"
+msgstr "Dandelion"
+
+#. Key:	02CD33A54478374A0D8F289DB7959B4C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay8.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay8.NODE_AddTextRenderComponent-0.Text
+msgctxt ",02CD33A54478374A0D8F289DB7959B4C"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	44CBE00A4ACBE6B4C33B188C00EE2BE8
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay_358.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay_358.Description
+msgctxt ",44CBE00A4ACBE6B4C33B188C00EE2BE8"
+msgid "Splat Cone"
+msgstr "Splat Cone"
+
+#. Key:	0B5BAF29470C2DBAD28B289CECFCDBFF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay_358.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Day.Overview_Map_Day:PersistentLevel.BP_DemoDisplay_358.NODE_AddTextRenderComponent-0.Text
+msgctxt ",0B5BAF29470C2DBAD28B289CECFCDBFF"
+msgid "Blood"
+msgstr "Blood"
+
+#. Key:	F21EFB6D4E94C1B3A9DE3CAA7067FE2E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay11.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay11.Description
+msgctxt ",F21EFB6D4E94C1B3A9DE3CAA7067FE2E"
+msgid "Big A"
+msgstr "Big A"
+
+#. Key:	BA41A300480D81AF0FAD6292AACAD2C4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay11.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay11.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BA41A300480D81AF0FAD6292AACAD2C4"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	9EC64B4A47E2A6829D93ABB08D71E9CB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay12.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay12.Description
+msgctxt ",9EC64B4A47E2A6829D93ABB08D71E9CB"
+msgid "Molotov"
+msgstr "Molotov"
+
+#. Key:	59E5321E4D861CF736EA5D91B4A1AD83
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay12.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay12.NODE_AddTextRenderComponent-0.Text
+msgctxt ",59E5321E4D861CF736EA5D91B4A1AD83"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	403782BC4A35F4283865AEA343116804
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay13.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay13.Description
+msgctxt ",403782BC4A35F4283865AEA343116804"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	5FD881644C6867B06E1D7A863678C47A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay13.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay13.NODE_AddTextRenderComponent-0.Text
+msgctxt ",5FD881644C6867B06E1D7A863678C47A"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	49D844ED4D3A4CAD6EEED0836AEE2CFA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay14.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay14.Description
+msgctxt ",49D844ED4D3A4CAD6EEED0836AEE2CFA"
+msgid "Concrete"
+msgstr "Concrete"
+
+#. Key:	A9E41F434B22667B938DDA80687B3F13
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay14.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay14.NODE_AddTextRenderComponent-0.Text
+msgctxt ",A9E41F434B22667B938DDA80687B3F13"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	A3B1711049A28B01955BE5AB7C3BDA12
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay15.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay15.Description
+msgctxt ",A3B1711049A28B01955BE5AB7C3BDA12"
+msgid "Glass"
+msgstr "Glass"
+
+#. Key:	796B9E5C47F5F688341684A049F1B930
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay15.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay15.NODE_AddTextRenderComponent-0.Text
+msgctxt ",796B9E5C47F5F688341684A049F1B930"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	DA95FDB24A3590DB01EF7E80937C5D59
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay16.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay16.Description
+msgctxt ",DA95FDB24A3590DB01EF7E80937C5D59"
+msgid "Metal"
+msgstr "Metal"
+
+#. Key:	E8B30B4D4294E565CC9EF490DCC6C8BA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay16.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay16.NODE_AddTextRenderComponent-0.Text
+msgctxt ",E8B30B4D4294E565CC9EF490DCC6C8BA"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	1859F1E4496E1DAF63AD5FAEFF68F4E0
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay17.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay17.Description
+msgctxt ",1859F1E4496E1DAF63AD5FAEFF68F4E0"
+msgid "Wood"
+msgstr "Wood"
+
+#. Key:	D84EC7E646DAE8BBC191B1B338289FC2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay17.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay17.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D84EC7E646DAE8BBC191B1B338289FC2"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	7CD93B214BCE08199227BC877A660BBE
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay18.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay18.Description
+msgctxt ",7CD93B214BCE08199227BC877A660BBE"
+msgid "Electric"
+msgstr "Electric"
+
+#. Key:	22DD4B014A750528124825A1E26F51B1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay18.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay18.NODE_AddTextRenderComponent-0.Text
+msgctxt ",22DD4B014A750528124825A1E26F51B1"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	771F017D4E65B5EDDC24EDAB82E35B97
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay19.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay19.Description
+msgctxt ",771F017D4E65B5EDDC24EDAB82E35B97"
+msgid "Ceramic"
+msgstr "Ceramic"
+
+#. Key:	7D4ADF4340FC02384D2605B786C4CC6B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay19.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay19.NODE_AddTextRenderComponent-0.Text
+msgctxt ",7D4ADF4340FC02384D2605B786C4CC6B"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	796D89094E8D952AE706CC9E23890DE5
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay20.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay20.Description
+msgctxt ",796D89094E8D952AE706CC9E23890DE5"
+msgid "Building A"
+msgstr "Building A"
+
+#. Key:	DDD898EF4C0AE17AEBC4A696CA63747B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay20.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay20.NODE_AddTextRenderComponent-0.Text
+msgctxt ",DDD898EF4C0AE17AEBC4A696CA63747B"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	740F367B42B715A14702DCA0BB64E4E4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay21.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay21.Description
+msgctxt ",740F367B42B715A14702DCA0BB64E4E4"
+msgid "Building B"
+msgstr "Building B"
+
+#. Key:	A2E3C9B742E1092FD9FDC9A931C271F2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay21.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay21.NODE_AddTextRenderComponent-0.Text
+msgctxt ",A2E3C9B742E1092FD9FDC9A931C271F2"
+msgid "Destruction"
+msgstr "Destruction"
+
+#. Key:	6020D0C147D5A3A24A398ABA180DABB1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay22.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay22.Description
+msgctxt ",6020D0C147D5A3A24A398ABA180DABB1"
+msgid "Leak A"
+msgstr "Leak A"
+
+#. Key:	D9B4EFE34261E12642451F86248F98CD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay22.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay22.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D9B4EFE34261E12642451F86248F98CD"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	F9297E80439445A280EBF39B137F5E6C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay23.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay23.Description
+msgctxt ",F9297E80439445A280EBF39B137F5E6C"
+msgid "Leak B"
+msgstr "Leak B"
+
+#. Key:	165E6F99451850C478B3E89048C0EA97
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay23.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay23.NODE_AddTextRenderComponent-0.Text
+msgctxt ",165E6F99451850C478B3E89048C0EA97"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	A3A520F14391B1BE113B68A25D108681
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay24.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay24.Description
+msgctxt ",A3A520F14391B1BE113B68A25D108681"
+msgid "Dripping A"
+msgstr "Dripping A"
+
+#. Key:	279C455F44F1CC0A1C22BF9AF024ABBC
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay24.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay24.NODE_AddTextRenderComponent-0.Text
+msgctxt ",279C455F44F1CC0A1C22BF9AF024ABBC"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	E9204E9041144CF7DBB1BE8890C28E5E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay25.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay25.Description
+msgctxt ",E9204E9041144CF7DBB1BE8890C28E5E"
+msgid "Dripping B"
+msgstr "Dripping B"
+
+#. Key:	6F93AADB4816B9C05396AA93F6E6F4A6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay25.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay25.NODE_AddTextRenderComponent-0.Text
+msgctxt ",6F93AADB4816B9C05396AA93F6E6F4A6"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	979BF2DC4BF5D633394F17BB38C7C8E7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay26.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay26.Description
+msgctxt ",979BF2DC4BF5D633394F17BB38C7C8E7"
+msgid "Big"
+msgstr "Big"
+
+#. Key:	D77502D148F5095A35F035B4367D9CD3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay26.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay26.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D77502D148F5095A35F035B4367D9CD3"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	530971924C24149D8CD247A85EB6B596
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay27.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay27.Description
+msgctxt ",530971924C24149D8CD247A85EB6B596"
+msgid "Wall"
+msgstr "Wall"
+
+#. Key:	7B3D97C44794AE9A78331F9EE25F9CB5
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay27.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay27.NODE_AddTextRenderComponent-0.Text
+msgctxt ",7B3D97C44794AE9A78331F9EE25F9CB5"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	032A9F8F4C50CBBDC01D4EA0716AD982
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay28.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay28.Description
+msgctxt ",032A9F8F4C50CBBDC01D4EA0716AD982"
+msgid "Small"
+msgstr "Small"
+
+#. Key:	6910ED9249CC2BD4C620078DBA5A9258
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay28.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay28.NODE_AddTextRenderComponent-0.Text
+msgctxt ",6910ED9249CC2BD4C620078DBA5A9258"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	520C79434D8879BFE42B108E31990064
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay29.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay29.Description
+msgctxt ",520C79434D8879BFE42B108E31990064"
+msgid "Bubbles A"
+msgstr "Bubbles A"
+
+#. Key:	39A26FC8461A1A6E9A8EEA8DA76DC5CB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay29.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay29.NODE_AddTextRenderComponent-0.Text
+msgctxt ",39A26FC8461A1A6E9A8EEA8DA76DC5CB"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	A8DACCE24A1BF54E32B7F68FB2C3A240
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay3.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay3.Description
+msgctxt ",A8DACCE24A1BF54E32B7F68FB2C3A240"
+msgid "Fish A"
+msgstr "Fish A"
+
+#. Key:	BBD6EE66407573DE7356D880BD336511
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay3.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay3.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BBD6EE66407573DE7356D880BD336511"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	CC2FEAB4463E50FA59F6AE8D17F02103
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay30.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay30.Description
+msgctxt ",CC2FEAB4463E50FA59F6AE8D17F02103"
+msgid "A"
+msgstr "A"
+
+#. Key:	85E4108F492650088F7F17826401C240
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay30.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay30.NODE_AddTextRenderComponent-0.Text
+msgctxt ",85E4108F492650088F7F17826401C240"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	24CD42BB46A8B107DEF9358D7D8BB1D3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay31.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay31.Description
+msgctxt ",24CD42BB46A8B107DEF9358D7D8BB1D3"
+msgid "B"
+msgstr "B"
+
+#. Key:	C42E968D4EB21EAD6A779B8B25C4538E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay31.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay31.NODE_AddTextRenderComponent-0.Text
+msgctxt ",C42E968D4EB21EAD6A779B8B25C4538E"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	3C0256154B1514BE1697DE97DC8D4533
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay32.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay32.Description
+msgctxt ",3C0256154B1514BE1697DE97DC8D4533"
+msgid "C"
+msgstr "C"
+
+#. Key:	9FFA61A6459A74085A536286AA02BBB9
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay32.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay32.NODE_AddTextRenderComponent-0.Text
+msgctxt ",9FFA61A6459A74085A536286AA02BBB9"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	FE75CC484AF97C946C3C09A6BBF216C3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay33.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay33.Description
+msgctxt ",FE75CC484AF97C946C3C09A6BBF216C3"
+msgid "D"
+msgstr "D"
+
+#. Key:	DD6C5C2F41871C87471A23862E5AF50B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay33.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay33.NODE_AddTextRenderComponent-0.Text
+msgctxt ",DD6C5C2F41871C87471A23862E5AF50B"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	B735E0504EC4FFDD48F653955B43DBD6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay34.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay34.Description
+msgctxt ",B735E0504EC4FFDD48F653955B43DBD6"
+msgid "E"
+msgstr "E"
+
+#. Key:	388D3FAD4DD8D581471C8FB43F6ED94D
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay34.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay34.NODE_AddTextRenderComponent-0.Text
+msgctxt ",388D3FAD4DD8D581471C8FB43F6ED94D"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	370F418447EB9636EB953796A3DD9D2E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay35.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay35.Description
+msgctxt ",370F418447EB9636EB953796A3DD9D2E"
+msgid "F"
+msgstr "F"
+
+#. Key:	990C715C4FB7393D7C85289380043932
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay35.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay35.NODE_AddTextRenderComponent-0.Text
+msgctxt ",990C715C4FB7393D7C85289380043932"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	130104794DD4BFAEBB7D4A898078EE0A
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay36.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay36.Description
+msgctxt ",130104794DD4BFAEBB7D4A898078EE0A"
+msgid "A"
+msgstr "A"
+
+#. Key:	1E6B50664E17147F3E2FA69A6AA0DC02
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay36.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay36.NODE_AddTextRenderComponent-0.Text
+msgctxt ",1E6B50664E17147F3E2FA69A6AA0DC02"
+msgid "Embers"
+msgstr "Embers"
+
+#. Key:	9C5B45044EF6DABC7AE94BA1BB1459EA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay37.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay37.Description
+msgctxt ",9C5B45044EF6DABC7AE94BA1BB1459EA"
+msgid "A"
+msgstr "A"
+
+#. Key:	BA98CCDF4EF4F5DE0DA3AC8571B7C724
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay37.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay37.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BA98CCDF4EF4F5DE0DA3AC8571B7C724"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	306E19B14E3423B615C82883163C3BEF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay38.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay38.Description
+msgctxt ",306E19B14E3423B615C82883163C3BEF"
+msgid "Default"
+msgstr "Default"
+
+#. Key:	FDE9754E42DCFF6053667E9A53E66BFD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay38.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay38.NODE_AddTextRenderComponent-0.Text
+msgctxt ",FDE9754E42DCFF6053667E9A53E66BFD"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	32A8546147276626E7186C8D3B869F6F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay39.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay39.Description
+msgctxt ",32A8546147276626E7186C8D3B869F6F"
+msgid "B"
+msgstr "B"
+
+#. Key:	4D45FE0B44CD5740187225938ECE63AF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay39.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay39.NODE_AddTextRenderComponent-0.Text
+msgctxt ",4D45FE0B44CD5740187225938ECE63AF"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	7B0F0AEA44E04457E13DAD8C4E5A8333
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay4.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay4.Description
+msgctxt ",7B0F0AEA44E04457E13DAD8C4E5A8333"
+msgid "Fish B"
+msgstr "Fish B"
+
+#. Key:	654B437047D9817E37CB1B8B27EE0E28
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay4.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay4.NODE_AddTextRenderComponent-0.Text
+msgctxt ",654B437047D9817E37CB1B8B27EE0E28"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	4A2E52BC408FB298E5733E8B172F2FE3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay40.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay40.Description
+msgctxt ",4A2E52BC408FB298E5733E8B172F2FE3"
+msgid "C"
+msgstr "C"
+
+#. Key:	F37B55234D9264E0873EC4808A42E7CB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay40.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay40.NODE_AddTextRenderComponent-0.Text
+msgctxt ",F37B55234D9264E0873EC4808A42E7CB"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	1FAB9DB7476D6B22C90AACB4B2C05045
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay41.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay41.Description
+msgctxt ",1FAB9DB7476D6B22C90AACB4B2C05045"
+msgid "D"
+msgstr "D"
+
+#. Key:	AC04C89C4B702C5D6848F8A3C98517DB
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay41.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay41.NODE_AddTextRenderComponent-0.Text
+msgctxt ",AC04C89C4B702C5D6848F8A3C98517DB"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	BA3365EE463E7173ABC2828D133ADD7C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay42.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay42.Description
+msgctxt ",BA3365EE463E7173ABC2828D133ADD7C"
+msgid "A"
+msgstr "A"
+
+#. Key:	3BE2FA5C4D4E4747AFB02E9D3EF7C755
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay42.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay42.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3BE2FA5C4D4E4747AFB02E9D3EF7C755"
+msgid "Steam"
+msgstr "Steam"
+
+#. Key:	446B0A4947B912D491AEAD96788DBDB1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay43.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay43.Description
+msgctxt ",446B0A4947B912D491AEAD96788DBDB1"
+msgid "F"
+msgstr "F"
+
+#. Key:	3D2E9967419126F3979A6C85846E9057
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay43.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay43.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3D2E9967419126F3979A6C85846E9057"
+msgid "Smoke"
+msgstr "Smoke"
+
+#. Key:	D72AC5644605F14A2EC9E38E72F4ADA3
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay44.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay44.Description
+msgctxt ",D72AC5644605F14A2EC9E38E72F4ADA3"
+msgid "Ceramic"
+msgstr "Ceramic"
+
+#. Key:	075FD830455998DC8181C6A34BDB7A79
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay44.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay44.NODE_AddTextRenderComponent-0.Text
+msgctxt ",075FD830455998DC8181C6A34BDB7A79"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	CCAB6E67499700B4A3446F807D03FD43
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay45.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay45.Description
+msgctxt ",CCAB6E67499700B4A3446F807D03FD43"
+msgid "Concrete"
+msgstr "Concrete"
+
+#. Key:	AF84BAFB4B3461760927C2BE03BEA9DD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay45.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay45.NODE_AddTextRenderComponent-0.Text
+msgctxt ",AF84BAFB4B3461760927C2BE03BEA9DD"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	1DF089BD4D86ADA05EC0C3B9AE8BC0A1
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay46.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay46.Description
+msgctxt ",1DF089BD4D86ADA05EC0C3B9AE8BC0A1"
+msgid "Asphalt"
+msgstr "Asphalt"
+
+#. Key:	3CF40AE54FAFEBC0D6AF7BAE3F00D00C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay46.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay46.NODE_AddTextRenderComponent-0.Text
+msgctxt ",3CF40AE54FAFEBC0D6AF7BAE3F00D00C"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	0FD4267F491B43DD90D7598491F2FC06
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay47.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay47.Description
+msgctxt ",0FD4267F491B43DD90D7598491F2FC06"
+msgid "Brick"
+msgstr "Brick"
+
+#. Key:	FF87F5D546BE7BA2AC45F096015BB09D
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay47.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay47.NODE_AddTextRenderComponent-0.Text
+msgctxt ",FF87F5D546BE7BA2AC45F096015BB09D"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	AD889C2644075409C8F18D8B7167B3A7
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay48.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay48.Description
+msgctxt ",AD889C2644075409C8F18D8B7167B3A7"
+msgid "Bubbles B"
+msgstr "Bubbles B"
+
+#. Key:	BA5B9848425794752CA47CB59C150105
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay48.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay48.NODE_AddTextRenderComponent-0.Text
+msgctxt ",BA5B9848425794752CA47CB59C150105"
+msgid "Water"
+msgstr "Water"
+
+#. Key:	EB57DA404F1D7D15381BC486BDAF775E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay49.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay49.Description
+msgctxt ",EB57DA404F1D7D15381BC486BDAF775E"
+msgid "Leather"
+msgstr "Leather"
+
+#. Key:	52857B464879964E77D3F38E43DE989B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay49.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay49.NODE_AddTextRenderComponent-0.Text
+msgctxt ",52857B464879964E77D3F38E43DE989B"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	11D231774DE4EED1F3BF16A29AC97B6F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay5.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay5.Description
+msgctxt ",11D231774DE4EED1F3BF16A29AC97B6F"
+msgid "Butterfly"
+msgstr "Butterfly"
+
+#. Key:	97FED4444E1AD938B2F1BCA3740BA60B
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay5.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay5.NODE_AddTextRenderComponent-0.Text
+msgctxt ",97FED4444E1AD938B2F1BCA3740BA60B"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	1ADBF3474D5AB7393FF5D781C2FAF258
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay50.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay50.Description
+msgctxt ",1ADBF3474D5AB7393FF5D781C2FAF258"
+msgid "Paper"
+msgstr "Paper"
+
+#. Key:	D621CFA74AAFBA887B31CFA78269048E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay50.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay50.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D621CFA74AAFBA887B31CFA78269048E"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	937722E846A108F6343706A830A6D9F2
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay51.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay51.Description
+msgctxt ",937722E846A108F6343706A830A6D9F2"
+msgid "Rubber"
+msgstr "Rubber"
+
+#. Key:	50A812BD434DE72545F19D8E35A8D5AE
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay51.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay51.NODE_AddTextRenderComponent-0.Text
+msgctxt ",50A812BD434DE72545F19D8E35A8D5AE"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	AA897BA646AD59D90C298FA2F2F2C027
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay52.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay52.Description
+msgctxt ",AA897BA646AD59D90C298FA2F2F2C027"
+msgid "Vegetation"
+msgstr "Vegetation"
+
+#. Key:	D19413DE4E7199D7B5529EAB8C9D45A5
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay52.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay52.NODE_AddTextRenderComponent-0.Text
+msgctxt ",D19413DE4E7199D7B5529EAB8C9D45A5"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	039580BB4F45A6946C4A6493F6C09C53
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay53.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay53.Description
+msgctxt ",039580BB4F45A6946C4A6493F6C09C53"
+msgid "G"
+msgstr "G"
+
+#. Key:	71CCA9BB480DC48CF486E39994359ABE
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay53.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay53.NODE_AddTextRenderComponent-0.Text
+msgctxt ",71CCA9BB480DC48CF486E39994359ABE"
+msgid "Sparks"
+msgstr "Sparks"
+
+#. Key:	38ADB4F247E654B2D14AC5ABF9CD9C72
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay56.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay56.Description
+msgctxt ",38ADB4F247E654B2D14AC5ABF9CD9C72"
+msgid "Flamethrower"
+msgstr "Flamethrower"
+
+#. Key:	239E68944A5414ABF708BF812F88ADD4
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay56.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay56.NODE_AddTextRenderComponent-0.Text
+msgctxt ",239E68944A5414ABF708BF812F88ADD4"
+msgid "Fire"
+msgstr "Fire"
+
+#. Key:	F79FB0FA496A31182C77CEA9C8B83C58
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay58.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay58.Description
+msgctxt ",F79FB0FA496A31182C77CEA9C8B83C58"
+msgid "Big B"
+msgstr "Big B"
+
+#. Key:	C2AFFA774D30E5092563449866024239
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay58.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay58.NODE_AddTextRenderComponent-0.Text
+msgctxt ",C2AFFA774D30E5092563449866024239"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	2A0C37024F5E55EF71BDB6960CE68E96
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay59_847.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay59_847.Description
+msgctxt ",2A0C37024F5E55EF71BDB6960CE68E96"
+msgid "Ice"
+msgstr "Ice"
+
+#. Key:	F000850C4BB4F69FC67A74881B16922C
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay59_847.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay59_847.NODE_AddTextRenderComponent-0.Text
+msgctxt ",F000850C4BB4F69FC67A74881B16922C"
+msgid "Hit"
+msgstr "Hit"
+
+#. Key:	ECB04FEC432A99F41290079ACA542B6E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay6.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay6.Description
+msgctxt ",ECB04FEC432A99F41290079ACA542B6E"
+msgid "Fireflies"
+msgstr "Fireflies"
+
+#. Key:	2E1345B24F11EE0055C4078FFF0B38DD
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay6.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay6.NODE_AddTextRenderComponent-0.Text
+msgctxt ",2E1345B24F11EE0055C4078FFF0B38DD"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	DE5608164FDD3AC019C7C1A3281F2E61
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay60.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay60.Description
+msgctxt ",DE5608164FDD3AC019C7C1A3281F2E61"
+msgid "Side"
+msgstr "Side"
+
+#. Key:	5E0B46E6458CD51434C113840DF52A92
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay60.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay60.NODE_AddTextRenderComponent-0.Text
+msgctxt ",5E0B46E6458CD51434C113840DF52A92"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	A07921B24539506D65F0EAA9631D3CDF
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay61.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay61.Description
+msgctxt ",A07921B24539506D65F0EAA9631D3CDF"
+msgid "Big C"
+msgstr "Big C"
+
+#. Key:	2878EFC14A6B1825A9D34CADECE0AE6E
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay61.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay61.NODE_AddTextRenderComponent-0.Text
+msgctxt ",2878EFC14A6B1825A9D34CADECE0AE6E"
+msgid "Explosion"
+msgstr "Explosion"
+
+#. Key:	0DB457044ED1BC677593A991C1BFA61F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay7.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay7.Description
+msgctxt ",0DB457044ED1BC677593A991C1BFA61F"
+msgid "Leaves Vortex"
+msgstr "Leaves Vortex"
+
+#. Key:	AA79DC2F4929AA0F776719BF0206F2CA
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay7.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay7.NODE_AddTextRenderComponent-0.Text
+msgctxt ",AA79DC2F4929AA0F776719BF0206F2CA"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	D106759B43B0D3410BB37EB5716B1C22
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay8.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay8.Description
+msgctxt ",D106759B43B0D3410BB37EB5716B1C22"
+msgid "Dandelion"
+msgstr "Dandelion"
+
+#. Key:	DD6D850D4C174C63518B84BF3EAAE00F
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay8.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay8.NODE_AddTextRenderComponent-0.Text
+msgctxt ",DD6D850D4C174C63518B84BF3EAAE00F"
+msgid "Environment"
+msgstr "Environment"
+
+#. Key:	C1007D424912298619FF16941FBF1FE6
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay_358.Description
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay_358.Description
+msgctxt ",C1007D424912298619FF16941FBF1FE6"
+msgid "Splat Cone"
+msgstr "Splat Cone"
+
+#. Key:	9B6708A846BE4E705C5833BDA5313F7D
+#. SourceLocation:	/Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay_358.NODE_AddTextRenderComponent-0.Text
+#: /Game/Realistic_Starter_VFX_Pack_Vol2/Maps/Overview_Map_Night.Overview_Map_Night:PersistentLevel.BP_DemoDisplay_358.NODE_AddTextRenderComponent-0.Text
+msgctxt ",9B6708A846BE4E705C5833BDA5313F7D"
+msgid "Blood"
+msgstr "Blood"
+
+#. Key:	back
+#. SourceLocation:	/Game/ST_Localization.ST_Localization
+#: /Game/ST_Localization.ST_Localization
+msgctxt "ST_Localization,back"
+msgid "Back"
+msgstr "Back"
+
+#. Key:	71867380433B0E0BBB86E9A13BC8A4C7
+#. SourceLocation:	/Game/Tasks/WBP_Notification.WBP_Notification_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/Tasks/WBP_Notification.WBP_Notification_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",71867380433B0E0BBB86E9A13BC8A4C7"
+msgid "Close"
+msgstr "Close"
+
+#. Key:	1ACCF9104C69D574B820EDB84E880E50
+#. SourceLocation:	/Game/UI/BuildWindow/WBP_BuildMenu.WBP_BuildMenu_C:WidgetTree.CommonTextBlock_93.Text
+#: /Game/UI/BuildWindow/WBP_BuildMenu.WBP_BuildMenu_C:WidgetTree.CommonTextBlock_93.Text
+msgctxt ",1ACCF9104C69D574B820EDB84E880E50"
+msgid "X"
+msgstr "X"
+
+#. Key:	FA383C024540A2D87C3651BA2D20591C
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",FA383C024540A2D87C3651BA2D20591C"
+msgid "W"
+msgstr "W"
+
+#. Key:	F8D02FFD4945E8DEE83B0DAD4FFE2177
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",F8D02FFD4945E8DEE83B0DAD4FFE2177"
+msgid "A"
+msgstr "A"
+
+#. Key:	8F005D334BA13C6B16F2B5B3D5A415DD
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_156.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_156.Text
+msgctxt ",8F005D334BA13C6B16F2B5B3D5A415DD"
+msgid "S"
+msgstr "S"
+
+#. Key:	C9D62E0941BAF4A9ED81669D72A2A355
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",C9D62E0941BAF4A9ED81669D72A2A355"
+msgid "D"
+msgstr "D"
+
+#. Key:	157791024EE743B2F732299341659AF6
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_3.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_3.Text
+msgctxt ",157791024EE743B2F732299341659AF6"
+msgid "E"
+msgstr "E"
+
+#. Key:	DFBED6BA48A0235392B8299821762F04
+#. SourceLocation:	/Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_4.Text
+#: /Game/UI/Controls/WBP_Controls.WBP_Controls_C:WidgetTree.CommonTextBlock_4.Text
+msgctxt ",DFBED6BA48A0235392B8299821762F04"
+msgid "Q"
+msgstr "Q"
+
+#. Key:	B192846B4FBB74C29080E7B4B4E9E26A
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",B192846B4FBB74C29080E7B4B4E9E26A"
+msgid "Artists:"
+msgstr "Artists:"
+
+#. Key:	F8F48A1A408C7A3E2BF482B61CBE138A
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_12.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_12.Text
+msgctxt ",F8F48A1A408C7A3E2BF482B61CBE138A"
+msgid "Sounds & Music:"
+msgstr "Sounds & Music:"
+
+#. Key:	A8CD5675484E72AE7A60D1B800C95724
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_13.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_13.Text
+msgctxt ",A8CD5675484E72AE7A60D1B800C95724"
+msgid "Your dearest"
+msgstr "Your dearest"
+
+#. Key:	EC9B64684D1283E924C88981AC76CF81
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_15.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_15.Text
+msgctxt ",EC9B64684D1283E924C88981AC76CF81"
+msgid "Thanks for playing demo!"
+msgstr "Thanks for playing demo!"
+
+#. Key:	53716FF1448719E385989E92F5D03ED0
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",53716FF1448719E385989E92F5D03ED0"
+msgid "Illustrations"
+msgstr "Illustrations"
+
+#. Key:	47C3ACC64C715AABF3C438AC66C66011
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_4.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_4.Text
+msgctxt ",47C3ACC64C715AABF3C438AC66C66011"
+msgid "Characters"
+msgstr "Characters"
+
+#. Key:	CCAB54574CE939C0E88028999C90291F
+#. SourceLocation:	/Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_82.Text
+#: /Game/UI/CriticalUI/FinalScreen.FinalScreen_C:WidgetTree.CommonTextBlock_82.Text
+msgctxt ",CCAB54574CE939C0E88028999C90291F"
+msgid "Game made by:"
+msgstr "Game made by:"
+
+#. Key:	9A197F474AB4FCA46A8561B89E2BB129
+#. SourceLocation:	/Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",9A197F474AB4FCA46A8561B89E2BB129"
+msgid "Shield"
+msgstr "Shield"
+
+#. Key:	10426BF14F1E192577C78B9F515FC4EC
+#. SourceLocation:	/Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",10426BF14F1E192577C78B9F515FC4EC"
+msgid "Laser"
+msgstr "Laser"
+
+#. Key:	9231F13B42348502AEA8CF9CED0E8887
+#. SourceLocation:	/Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/UI/Fighting/EAttackType.EAttackType.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",9231F13B42348502AEA8CF9CED0E8887"
+msgid "Bomb"
+msgstr "Bomb"
+
+#. Key:	731BD758417AAA2316E7DAB42DF36442
+#. SourceLocation:	/Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",731BD758417AAA2316E7DAB42DF36442"
+msgid "ScienceFraction"
+msgstr "ScienceFraction"
+
+#. Key:	C5A4C3654AF9B3A04DF1DD9BCD9E833E
+#. SourceLocation:	/Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",C5A4C3654AF9B3A04DF1DD9BCD9E833E"
+msgid "DestructionFraction"
+msgstr "DestructionFraction"
+
+#. Key:	BD837CF34E6AC54C17932BA44A0A2790
+#. SourceLocation:	/Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",BD837CF34E6AC54C17932BA44A0A2790"
+msgid "HappyFraction"
+msgstr "HappyFraction"
+
+#. Key:	6CE715164A8BA44501198E81A2F7446D
+#. SourceLocation:	/Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Fraction.Fraction.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",6CE715164A8BA44501198E81A2F7446D"
+msgid "HidingFraction"
+msgstr "HidingFraction"
+
+#. Key:	F5ED346B40D773B5373386B8BCF72106
+#. SourceLocation:	/Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",F5ED346B40D773B5373386B8BCF72106"
+msgid "Good"
+msgstr "Good"
+
+#. Key:	880CB95F4EC30F66D9DB99B43F0221A4
+#. SourceLocation:	/Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",880CB95F4EC30F66D9DB99B43F0221A4"
+msgid "Neutral"
+msgstr "Neutral"
+
+#. Key:	3C2A36DA412261EEE1E55AABCD270787
+#. SourceLocation:	/Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/UI/FractionsMenu/Relationship.Relationship.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",3C2A36DA412261EEE1E55AABCD270787"
+msgid "Bad"
+msgstr "Bad"
+
+#. Key:	D5B546964F12F9AB1F51CB846D2852F8
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_Activation.WBP_Activation_C:WidgetTree.NameText.Text
+#: /Game/UI/FractionsMenu/WBP_Activation.WBP_Activation_C:WidgetTree.NameText.Text
+msgctxt ",D5B546964F12F9AB1F51CB846D2852F8"
+msgid "Activate"
+msgstr "Activate"
+
+#. Key:	5D4431D343316C8AECE71F8EBF3067A7
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_dialogueWindow.WBP_dialogueWindow_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/FractionsMenu/WBP_dialogueWindow.WBP_dialogueWindow_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",5D4431D343316C8AECE71F8EBF3067A7"
+msgid "Back"
+msgstr "Back"
+
+#. Key:	ED4994F14AE1CC76F323BBA306FA8ACB
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_dialogueWindow.WBP_dialogueWindow_C:WidgetTree.ScienceFractionButton.ButtonText
+#: /Game/UI/FractionsMenu/WBP_dialogueWindow.WBP_dialogueWindow_C:WidgetTree.ScienceFractionButton.ButtonText
+msgctxt ",ED4994F14AE1CC76F323BBA306FA8ACB"
+msgid "Science Faction"
+msgstr "Science Faction"
+
+#. Key:	748204964DD4D42F50C233BFE80D22D3
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",748204964DD4D42F50C233BFE80D22D3"
+msgid "Trade"
+msgstr "Trade"
+
+#. Key:	F43491DE4735741276F59FAAE850E3D5
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",F43491DE4735741276F59FAAE850E3D5"
+msgid "Name:"
+msgstr "Name:"
+
+#. Key:	6103A3DC408B3F0D6F89F0A277DED7E1
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",6103A3DC408B3F0D6F89F0A277DED7E1"
+msgid "Collaboration"
+msgstr "Collaboration"
+
+#. Key:	A13428384380E614189CFABDB6BF94C8
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_105.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_105.Text
+msgctxt ",A13428384380E614189CFABDB6BF94C8"
+msgid "i"
+msgstr "i"
+
+#. Key:	079DECDF46B94973F234EBB8B1BC6461
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",079DECDF46B94973F234EBB8B1BC6461"
+msgid "Milestones"
+msgstr "Milestones"
+
+#. Key:	AC77BE804FE65A03BC7BBC88ED817BB8
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_205.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_205.Text
+msgctxt ",AC77BE804FE65A03BC7BBC88ED817BB8"
+msgid "Dialogue"
+msgstr "Dialogue"
+
+#. Key:	F5CAACB842FF19E2AE374B99BE3CECF4
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_207.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.CommonTextBlock_207.Text
+msgctxt ",F5CAACB842FF19E2AE374B99BE3CECF4"
+msgid "Next"
+msgstr "Next"
+
+#. Key:	50CAE1F54F8A5E658C753B812D0534E9
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.FractionName.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.FractionName.Text
+msgctxt ",50CAE1F54F8A5E658C753B812D0534E9"
+msgid "Fraction"
+msgstr "Fraction"
+
+#. Key:	D895944E48897D5E3266EE9E8CEE1F67
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.GoalText.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.GoalText.Text
+msgctxt ",D895944E48897D5E3266EE9E8CEE1F67"
+msgid "goal"
+msgstr "goal"
+
+#. Key:	65709448494AFE6CA0B3608B79102528
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.GoalText_1.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.GoalText_1.Text
+msgctxt ",65709448494AFE6CA0B3608B79102528"
+msgid "Negative"
+msgstr "Negative"
+
+#. Key:	7BF0442F4844651C840A50AF02F3CEC7
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.NameText.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.NameText.Text
+msgctxt ",7BF0442F4844651C840A50AF02F3CEC7"
+msgid "name"
+msgstr "name"
+
+#. Key:	6FA44E3F4FFA36DEB73326BD465B4965
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.texts.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.texts.Text
+msgctxt ",6FA44E3F4FFA36DEB73326BD465B4965"
+msgid "Goal:"
+msgstr "Goal:"
+
+#. Key:	DEA876B14D318C2AE83C169C699D03C2
+#. SourceLocation:	/Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.texts_1.Text
+#: /Game/UI/FractionsMenu/WBP_FractionMenu.WBP_FractionMenu_C:WidgetTree.texts_1.Text
+msgctxt ",DEA876B14D318C2AE83C169C699D03C2"
+msgid "Relationship:"
+msgstr "Relationship:"
+
+#. Key:	D1DBD5DC4D497E4FD8A2A290E9A4B83F
+#. SourceLocation:	/Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",D1DBD5DC4D497E4FD8A2A290E9A4B83F"
+msgid "New Entry!"
+msgstr "New Entry!"
+
+#. Key:	3AA344C944A436E16AF6EBBF62E84AB9
+#. SourceLocation:	/Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",3AA344C944A436E16AF6EBBF62E84AB9"
+msgid "Black Hole's mass:"
+msgstr "Black Hole's mass:"
+
+#. Key:	62B4ECE74CB420A0B5EC04A7290A60D0
+#. SourceLocation:	/Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_133.Text
+#: /Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_133.Text
+msgctxt ",62B4ECE74CB420A0B5EC04A7290A60D0"
+msgid "Report Bugs and Feedback"
+msgstr "Report Bugs and Feedback"
+
+#. Key:	BC2370384B80AB584901908478304589
+#. SourceLocation:	/Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/HUD/WBP_GameHUD.WBP_GameHUD_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",BC2370384B80AB584901908478304589"
+msgid "Extract"
+msgstr "Extract"
+
+#. Key:	B677908B4B1E3902246AF6A3996501ED
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",B677908B4B1E3902246AF6A3996501ED"
+msgid "Next >>>"
+msgstr "Next >>>"
+
+#. Key:	1FCC53C24C3472299E787690F74D4ABE
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.CommonTextBlock_79.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.CommonTextBlock_79.Text
+msgctxt ",1FCC53C24C3472299E787690F74D4ABE"
+msgid "Skip Tutorial"
+msgstr "Skip Tutorial"
+
+#. Key:	687417A94991F5EEA8A795BF64FA28FF
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextContact.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextContact.Text
+msgctxt ",687417A94991F5EEA8A795BF64FA28FF"
+msgid "This is the contact panel, where you can manage in-base communications."
+msgstr "This is the contact panel, where you can manage in-base communications."
+
+#. Key:	4EDBBAD644AC36F9E22D8EB652009B70
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextJournal.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextJournal.Text
+msgctxt ",4EDBBAD644AC36F9E22D8EB652009B70"
+msgid "This is the Journal panel, where you can read collected educational and story information."
+msgstr "This is the Journal panel, where you can read collected educational and story information."
+
+#. Key:	7E8BDC1744FE8252B5A9B49C7318DC1F
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextMapButton.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextMapButton.Text
+msgctxt ",7E8BDC1744FE8252B5A9B49C7318DC1F"
+msgid "This is the cosmic map button. Use it to choose destinations for mass extraction and other purposes."
+msgstr "This is the cosmic map button. Use it to choose destinations for mass extraction and other purposes."
+
+#. Key:	767DC1CC424038DA3BE1E5B108D7BA2F
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextMassMenu.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextMassMenu.Text
+msgctxt ",767DC1CC424038DA3BE1E5B108D7BA2F"
+msgid "This section shows statistics on the black hole's mass wastage if you click it."
+msgstr "This section shows statistics on the black hole's mass wastage if you click it."
+
+#. Key:	0F2E225444C25E3AEB2D6482F0C34A0B
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextResearch.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextResearch.Text
+msgctxt ",0F2E225444C25E3AEB2D6482F0C34A0B"
+msgid "This is the research button, where you can manage your research progress."
+msgstr "This is the research button, where you can manage your research progress."
+
+#. Key:	8E5B531F4795055BEC0F28AECF8BE1B1
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextSettings.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextSettings.Text
+msgctxt ",8E5B531F4795055BEC0F28AECF8BE1B1"
+msgid "Ship managment section"
+msgstr "Ship managment section"
+
+#. Key:	AFCB3B08452CB7A4160D36B47092197F
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTaskMenu.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTaskMenu.Text
+msgctxt ",AFCB3B08452CB7A4160D36B47092197F"
+msgid "This is the tasks section. View your current tasks and their progress here.\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+msgstr "This is the tasks section. View your current tasks and their progress here.\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+
+#. Key:	1A4E993A473AE6575559BB9588644149
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTimeFlow.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTimeFlow.Text
+msgctxt ",1A4E993A473AE6575559BB9588644149"
+msgid "This is the time control panel, where you can pause or speed up the flow of time."
+msgstr "This is the time control panel, where you can pause or speed up the flow of time."
+
+#. Key:	A7B448E1412CFBD2C390069354B6E311
+#. SourceLocation:	/Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTimelapse.Text
+#: /Game/UI/HUD/WBP_TutorialWindow.WBP_TutorialWindow_C:WidgetTree.TutorialTextTimelapse.Text
+msgctxt ",A7B448E1412CFBD2C390069354B6E311"
+msgid "This is the timeline to see which era you are currently in."
+msgstr "This is the timeline to see which era you are currently in."
+
+#. Key:	EB98C3614EF7F41DC0B569B0F94A4927
+#. SourceLocation:	/Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",EB98C3614EF7F41DC0B569B0F94A4927"
+msgid "NeutronStars"
+msgstr "NeutronStars"
+
+#. Key:	97F815244E426A8FCDC31ABB9515D644
+#. SourceLocation:	/Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",97F815244E426A8FCDC31ABB9515D644"
+msgid "NewSingularity"
+msgstr "NewSingularity"
+
+#. Key:	842FD7104761344BABB3E088C93E8EA3
+#. SourceLocation:	/Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",842FD7104761344BABB3E088C93E8EA3"
+msgid "BlackHoles"
+msgstr "BlackHoles"
+
+#. Key:	A937CAB3404F1DE90E578BBF22D28D9F
+#. SourceLocation:	/Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",A937CAB3404F1DE90E578BBF22D28D9F"
+msgid "Relics"
+msgstr "Relics"
+
+#. Key:	68333A9E43D18A9C9D33D8A10EE99077
+#. SourceLocation:	/Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/UI/Map/ResourcesType.ResourcesType.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",68333A9E43D18A9C9D33D8A10EE99077"
+msgid "Enemy"
+msgstr "Enemy"
+
+#. Key:	E9EB515D49C8BC9D87FFA0B9812B9AFF
+#. SourceLocation:	/Game/UI/Map/WBP_Map.WBP_Map_C:WidgetTree.CommonTextBlock_90.Text
+#: /Game/UI/Map/WBP_Map.WBP_Map_C:WidgetTree.CommonTextBlock_90.Text
+msgctxt ",E9EB515D49C8BC9D87FFA0B9812B9AFF"
+msgid "Fly to"
+msgstr "Fly to"
+
+#. Key:	95BC5FDD41AD95AE99219E8C2F439EC8
+#. SourceLocation:	/Game/UI/Map/WBP_MapButton.WBP_MapButton_C:ExecuteUbergraph_WBP_MapButton [Script Bytecode]
+#: /Game/UI/Map/WBP_MapButton.WBP_MapButton_C:ExecuteUbergraph_WBP_MapButton [Script Bytecode]
+msgctxt ",95BC5FDD41AD95AE99219E8C2F439EC8"
+msgid "You already have a target to travel"
+msgstr "You already have a target to travel"
+
+#. Key:	A5D009A6477407005AC244BF18F7BB69
+#. SourceLocation:	/Game/UI/Map/WBP_MapButton.WBP_MapButton_C:ExecuteUbergraph_WBP_MapButton [Script Bytecode]
+#: /Game/UI/Map/WBP_MapButton.WBP_MapButton_C:ExecuteUbergraph_WBP_MapButton [Script Bytecode]
+msgctxt ",A5D009A6477407005AC244BF18F7BB69"
+msgid "You lack travel technologies to go to this location"
+msgstr "You lack travel technologies to go to this location"
+
+#. Key:	D0C985034A699F953ACC4F9A00A022C6
+#. SourceLocation:	/Game/UI/Menu/Disclaimer.Disclaimer_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/Menu/Disclaimer.Disclaimer_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",D0C985034A699F953ACC4F9A00A022C6"
+msgid "Disclaimer: This game is purely fictional and does not claim to be scientifically accurate or representative of real-world developments. All scenarios presented are imaginative depictions of human development and should not be considered as scientifically or physically precise."
+msgstr "Disclaimer: This game is purely fictional and does not claim to be scientifically accurate or representative of real-world developments. All scenarios presented are imaginative depictions of human development and should not be considered as scientifically or physically precise."
+
+#. Key:	C7129B834724B66FFA59A486BF45114D
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.CommonTextBlock_76.Text
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.CommonTextBlock_76.Text
+msgctxt ",C7129B834724B66FFA59A486BF45114D"
+msgid "DarkEra"
+msgstr "DarkEra"
+
+#. Key:	9421B9AF41BCAE719147168DDC1C87F9
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.CREDITS.ButtonText
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.CREDITS.ButtonText
+msgctxt ",9421B9AF41BCAE719147168DDC1C87F9"
+msgid "CREDITS"
+msgstr "CREDITS"
+
+#. Key:	827AEF86429453F86998FA9659F504D2
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.LOADGAME.ButtonText
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.LOADGAME.ButtonText
+msgctxt ",827AEF86429453F86998FA9659F504D2"
+msgid "LOAD GAME"
+msgstr "LOAD GAME"
+
+#. Key:	224AB5B44A058939872ED78041007A8D
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.QUIT.ButtonText
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.QUIT.ButtonText
+msgctxt ",224AB5B44A058939872ED78041007A8D"
+msgid "QUIT"
+msgstr "QUIT"
+
+#. Key:	47E4273E48D55227A6952CB5AEDE0713
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.SETTINGS.ButtonText
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.SETTINGS.ButtonText
+msgctxt ",47E4273E48D55227A6952CB5AEDE0713"
+msgid "SETTINGS"
+msgstr "SETTINGS"
+
+#. Key:	9415AA1A4D28340F62E91295B62B5D22
+#. SourceLocation:	/Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.StartGame.ButtonText
+#: /Game/UI/Menu/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.StartGame.ButtonText
+msgctxt ",9415AA1A4D28340F62E91295B62B5D22"
+msgid "NEW GAME"
+msgstr "NEW GAME"
+
+#. Key:	C7A0DDBC41BB61A46F75D2866DBE7FF4
+#. SourceLocation:	/Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",C7A0DDBC41BB61A46F75D2866DBE7FF4"
+msgid "Exit to Menu"
+msgstr "Exit to Menu"
+
+#. Key:	9AAEC1884D1C0334E1B77FBCB6FB8F21
+#. SourceLocation:	/Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",9AAEC1884D1C0334E1B77FBCB6FB8F21"
+msgid "Continue"
+msgstr "Continue"
+
+#. Key:	F75919AF489DDFAF01212D8A33E8E34A
+#. SourceLocation:	/Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",F75919AF489DDFAF01212D8A33E8E34A"
+msgid "Settings"
+msgstr "Settings"
+
+#. Key:	999AE9C34DBEBF79F2771AB8B4101322
+#. SourceLocation:	/Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",999AE9C34DBEBF79F2771AB8B4101322"
+msgid "Save Game"
+msgstr "Save Game"
+
+#. Key:	5FC2260A48C571BCAAFC2B89417D259D
+#. SourceLocation:	/Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_3.Text
+#: /Game/UI/Menu/WBP_MenuHUD.WBP_MenuHUD_C:WidgetTree.CommonTextBlock_3.Text
+msgctxt ",5FC2260A48C571BCAAFC2B89417D259D"
+msgid "(Saves don't work properly yet)"
+msgstr "(Saves don't work properly yet)"
+
+#. Key:	47DBDDC9454E64D53300789E964DAF11
+#. SourceLocation:	/Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:ExecuteUbergraph_WBP_NameMenu [Script Bytecode]
+#: /Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:ExecuteUbergraph_WBP_NameMenu [Script Bytecode]
+msgctxt ",47DBDDC9454E64D53300789E964DAF11"
+msgid "abc"
+msgstr "abc"
+
+#. Key:	99E123114E042C696DE407A52753305E
+#. SourceLocation:	/Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",99E123114E042C696DE407A52753305E"
+msgid "Create a name for a black hole"
+msgstr "Create a name for a black hole"
+
+#. Key:	FB8A9D63459A6AA9CF1EBCB4DE89818C
+#. SourceLocation:	/Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.CommonTextBlock_82.Text
+#: /Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.CommonTextBlock_82.Text
+msgctxt ",FB8A9D63459A6AA9CF1EBCB4DE89818C"
+msgid "Accept"
+msgstr "Accept"
+
+#. Key:	25A29CB9487E9096ED15D087E80C87A6
+#. SourceLocation:	/Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.NameTextBox.HintText
+#: /Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.NameTextBox.HintText
+msgctxt ",25A29CB9487E9096ED15D087E80C87A6"
+msgid "Enter the name"
+msgstr "Enter the name"
+
+#. Key:	FFE084FD4E9A4320068DF58292C34A84
+#. SourceLocation:	/Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.WarningText.Text
+#: /Game/UI/NameMenu/WBP_NameMenu.WBP_NameMenu_C:WidgetTree.WarningText.Text
+msgctxt ",FFE084FD4E9A4320068DF58292C34A84"
+msgid "The name cannot exceed 16 symbols in size due to the information optimization protocol"
+msgstr "The name cannot exceed 16 symbols in size due to the information optimization protocol"
+
+#. Key:	B525A3304A3AE4AAEF1C769F4F6B4167
+#. SourceLocation:	/Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",B525A3304A3AE4AAEF1C769F4F6B4167"
+msgid "Fighting"
+msgstr "Fighting"
+
+#. Key:	5CB8F7724995489F83A35A939C9D5B23
+#. SourceLocation:	/Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",5CB8F7724995489F83A35A939C9D5B23"
+msgid "Extraction"
+msgstr "Extraction"
+
+#. Key:	28F05C4E44FDC0DC3B013FB0C2119CAF
+#. SourceLocation:	/Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",28F05C4E44FDC0DC3B013FB0C2119CAF"
+msgid "Travelling"
+msgstr "Travelling"
+
+#. Key:	DF32A47C4B4FBC184A4A6C80CD7DB76E
+#. SourceLocation:	/Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/UI/ResearchWindow/ResearchTypeEnum.ResearchTypeEnum.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",DF32A47C4B4FBC184A4A6C80CD7DB76E"
+msgid "Fundamental"
+msgstr "Fundamental"
+
+#. Key:	C0A4CA5E4C82A7EE014C29B3C2F46F30
+#. SourceLocation:	/Game/UI/ResearchWindow/ResearchWindow.ResearchWindow_C:WidgetTree.CommonTextBlock_90.Text
+#: /Game/UI/ResearchWindow/ResearchWindow.ResearchWindow_C:WidgetTree.CommonTextBlock_90.Text
+msgctxt ",C0A4CA5E4C82A7EE014C29B3C2F46F30"
+msgid "Research"
+msgstr "Research"
+
+#. Key:	custom
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,custom"
+msgid "Custom"
+msgstr "Custom"
+
+#. Key:	high
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,high"
+msgid "High"
+msgstr "High"
+
+#. Key:	low
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,low"
+msgid "Low"
+msgstr "Low"
+
+#. Key:	medium
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,medium"
+msgid "Medium"
+msgstr "Medium"
+
+#. Key:	off
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,off"
+msgid "Off"
+msgstr "Off"
+
+#. Key:	on
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,on"
+msgid "On"
+msgstr "On"
+
+#. Key:	ultra
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,ultra"
+msgid "Ultra"
+msgstr "Ultra"
+
+#. Key:	veryHigh
+#. SourceLocation:	/Game/UI/Settings/ST_Settings.ST_Settings
+#: /Game/UI/Settings/ST_Settings.ST_Settings
+msgctxt "ST_Settings,veryHigh"
+msgid "Very High"
+msgstr "Very High"
+
+#. Key:	32FF152A49E1C3162038BB8CD43DC067
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:CheckForChanges [Script Bytecode]
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:CheckForChanges [Script Bytecode]
+msgctxt ",32FF152A49E1C3162038BB8CD43DC067"
+msgid "Do You want to apply changes?"
+msgstr "Do You want to apply changes?"
+
+#. Key:	07DC4D0D46521258E9D85DB53D8B11ED
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+msgctxt ",07DC4D0D46521258E9D85DB53D8B11ED"
+msgid "On"
+msgstr "On"
+
+#. Key:	64FA0BF54EA6CD38F93D298F22799170
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+msgctxt ",64FA0BF54EA6CD38F93D298F22799170"
+msgid "Off"
+msgstr "Off"
+
+#. Key:	8C6886E04C27B9E63638FB9A1517FDA1
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:InitializeGraphicsSettings [Script Bytecode]
+msgctxt ",8C6886E04C27B9E63638FB9A1517FDA1"
+msgid "Unlimited"
+msgstr "Unlimited"
+
+#. Key:	B14E297E41F11AD2E1465ABFF9CBD598
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:UpdateFoliageQuality [Script Bytecode]
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:UpdateFoliageQuality [Script Bytecode]
+msgctxt ",B14E297E41F11AD2E1465ABFF9CBD598"
+msgid "Custom"
+msgstr "Custom"
+
+#. Key:	5A2541B5427A564C689C53911801E07E
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",5A2541B5427A564C689C53911801E07E"
+msgid "Motion Blur"
+msgstr "Motion Blur"
+
+#. Key:	D92566D047798124014EC1806749B7D3
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_1.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_1.Text
+msgctxt ",D92566D047798124014EC1806749B7D3"
+msgid "Back"
+msgstr "Back"
+
+#. Key:	05DF2142428BF746A30F11B5B31904A9
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_10.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_10.Text
+msgctxt ",05DF2142428BF746A30F11B5B31904A9"
+msgid "FPS Limit"
+msgstr "FPS Limit"
+
+#. Key:	AE585068427AA419B0028EA4E7A8E28E
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_11.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_11.Text
+msgctxt ",AE585068427AA419B0028EA4E7A8E28E"
+msgid "Subtitles"
+msgstr "Subtitles"
+
+#. Key:	B208CAF14DB842B16E6E06838B850430
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_12.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_12.Text
+msgctxt ",B208CAF14DB842B16E6E06838B850430"
+msgid "Sensitivity"
+msgstr "Sensitivity"
+
+#. Key:	D22EF9324DDCD725AFECE2B4EC95122F
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_15.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_15.Text
+msgctxt ",D22EF9324DDCD725AFECE2B4EC95122F"
+msgid "Shadow Quality"
+msgstr "Shadow Quality"
+
+#. Key:	E99453A240C90F5820C9F5812F51F572
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_16.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_16.Text
+msgctxt ",E99453A240C90F5820C9F5812F51F572"
+msgid "Texture Quality"
+msgstr "Texture Quality"
+
+#. Key:	52235D174A447764D83EC7AFAE926F4C
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_17.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_17.Text
+msgctxt ",52235D174A447764D83EC7AFAE926F4C"
+msgid "Foliage Quality"
+msgstr "Foliage Quality"
+
+#. Key:	19A501C14BD78DF37E152F8AF4CE2809
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",19A501C14BD78DF37E152F8AF4CE2809"
+msgid "Music settings"
+msgstr "Music settings"
+
+#. Key:	EE44C3814D69362C67B0DD9D11A38315
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_3.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_3.Text
+msgctxt ",EE44C3814D69362C67B0DD9D11A38315"
+msgid "Music Volume"
+msgstr "Music Volume"
+
+#. Key:	299429654DFB18BAF85CC49E60466308
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_4.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_4.Text
+msgctxt ",299429654DFB18BAF85CC49E60466308"
+msgid "Gameplay settings"
+msgstr "Gameplay settings"
+
+#. Key:	B209B7134F4A155F7501138E1DD759AD
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_5.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_5.Text
+msgctxt ",B209B7134F4A155F7501138E1DD759AD"
+msgid "Effects Volume"
+msgstr "Effects Volume"
+
+#. Key:	A3D9585D4F30ECB80B6113B58C358A3C
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_6.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_6.Text
+msgctxt ",A3D9585D4F30ECB80B6113B58C358A3C"
+msgid "Voice Volume"
+msgstr "Voice Volume"
+
+#. Key:	9D9BC8874CC6CABD82CC71A3A2DF2287
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_7.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_7.Text
+msgctxt ",9D9BC8874CC6CABD82CC71A3A2DF2287"
+msgid "Apply"
+msgstr "Apply"
+
+#. Key:	3A562CDD4A2BF7F44677AA880412B8E8
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_8.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_8.Text
+msgctxt ",3A562CDD4A2BF7F44677AA880412B8E8"
+msgid "Depth of field"
+msgstr "Depth of field"
+
+#. Key:	09419A0A491E996B8E07149499A70C6A
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_9.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.CommonTextBlock_9.Text
+msgctxt ",09419A0A491E996B8E07149499A70C6A"
+msgid "V-Sync"
+msgstr "V-Sync"
+
+#. Key:	AAFF8660447807D9BB352AB27363E3DE
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.GraphicsSettingsButton.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.GraphicsSettingsButton.Text
+msgctxt ",AAFF8660447807D9BB352AB27363E3DE"
+msgid "Graphics Settings"
+msgstr "Graphics Settings"
+
+#. Key:	D3D41513441C9A0C23DF498D39AA75CA
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music.Text
+msgctxt ",D3D41513441C9A0C23DF498D39AA75CA"
+msgid "Language"
+msgstr "Language"
+
+#. Key:	8EF40BD947994DB551E840BF30D57B5A
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music_1.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music_1.Text
+msgctxt ",8EF40BD947994DB551E840BF30D57B5A"
+msgid "Resolution"
+msgstr "Resolution"
+
+#. Key:	F38629144696FBE8D3326DAB85C19E39
+#. SourceLocation:	/Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music_2.Text
+#: /Game/UI/Settings/WBP_Settings.WBP_Settings_C:WidgetTree.Music_2.Text
+msgctxt ",F38629144696FBE8D3326DAB85C19E39"
+msgid "Quality Preset"
+msgstr "Quality Preset"
+
+#. Key:	F383D5F24DFC4D2E2B2F01AF006E2E11
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",F383D5F24DFC4D2E2B2F01AF006E2E11"
+msgid "Price"
+msgstr "Price"
+
+#. Key:	3927EC814315951F35B6EFABF82FB88F
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_3.Text
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_3.Text
+msgctxt ",3927EC814315951F35B6EFABF82FB88F"
+msgid "Military Abilities"
+msgstr "Military Abilities"
+
+#. Key:	95EE880F4316C3E0747581B5188A7C3A
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_4.Text
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_4.Text
+msgctxt ",95EE880F4316C3E0747581B5188A7C3A"
+msgid "Count"
+msgstr "Count"
+
+#. Key:	D007AB4A44C26D81EFE48ABCA5FDBBCE
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_5.Text
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.CommonTextBlock_5.Text
+msgctxt ",D007AB4A44C26D81EFE48ABCA5FDBBCE"
+msgid "Ship's Health:"
+msgstr "Ship's Health:"
+
+#. Key:	BACFBF8B42AE166FD5EE9BA1B40FE369
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.WBP_BombProduction.Name
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.WBP_BombProduction.Name
+msgctxt ",BACFBF8B42AE166FD5EE9BA1B40FE369"
+msgid "Produce Anti-Matter Bomb"
+msgstr "Produce Anti-Matter Bomb"
+
+#. Key:	0A2EC2314D2E534A32A1428A5515E685
+#. SourceLocation:	/Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.WBP_ShieldActivation.Name
+#: /Game/UI/ShipManagment/WBP_ShipManagment.WBP_ShipManagment_C:WidgetTree.WBP_ShieldActivation.Name
+msgctxt ",0A2EC2314D2E534A32A1428A5515E685"
+msgid "Activate Shield"
+msgstr "Activate Shield"
+
+#. Key:	374726874D837FC0D7109B8B2FAA13BC
+#. SourceLocation:	/Game/UI/SingularityWindow/WBP_SingularityWindow.WBP_SingularityWindow_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/SingularityWindow/WBP_SingularityWindow.WBP_SingularityWindow_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",374726874D837FC0D7109B8B2FAA13BC"
+msgid "Plank Temperature"
+msgstr "Plank Temperature"
+
+#. Key:	5A4BB30B41E15881F463A398CBEE6181
+#. SourceLocation:	/Game/UI/SingularityWindow/WBP_SingularityWindow.WBP_SingularityWindow_C:WidgetTree.MassPlankText_hg.Text
+#: /Game/UI/SingularityWindow/WBP_SingularityWindow.WBP_SingularityWindow_C:WidgetTree.MassPlankText_hg.Text
+msgctxt ",5A4BB30B41E15881F463A398CBEE6181"
+msgid "µg"
+msgstr "µg"
+
+#. Key:	7B00105044BA2BA73AB5A48D6F83DA43
+#. SourceLocation:	/Game/UI/SkipCutscene/WBP_SkipCutscene.WBP_SkipCutscene_C:WidgetTree.CommonTextBlock_110.Text
+#: /Game/UI/SkipCutscene/WBP_SkipCutscene.WBP_SkipCutscene_C:WidgetTree.CommonTextBlock_110.Text
+msgctxt ",7B00105044BA2BA73AB5A48D6F83DA43"
+msgid "SKIP>>>"
+msgstr "SKIP>>>"
+
+#. Key:	731907CE48C286967B93A0A91552A411
+#. SourceLocation:	/Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock.Text
+#: /Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock.Text
+msgctxt ",731907CE48C286967B93A0A91552A411"
+msgid "Current mass:"
+msgstr "Current mass:"
+
+#. Key:	649F308B43532693EDF9E8BD8E13481A
+#. SourceLocation:	/Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",649F308B43532693EDF9E8BD8E13481A"
+msgid "Mass statistics"
+msgstr "Mass statistics"
+
+#. Key:	732A6E0C4E029B44831882BBBD62D315
+#. SourceLocation:	/Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_2.Text
+#: /Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_2.Text
+msgctxt ",732A6E0C4E029B44831882BBBD62D315"
+msgid "Mass debuff:"
+msgstr "Mass debuff:"
+
+#. Key:	44D0FFF04C4C61559D88C59AFE93A809
+#. SourceLocation:	/Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_4.Text
+#: /Game/UI/Statistics/WBP_MassStatistics.WBP_MassStatistics_C:WidgetTree.CommonTextBlock_4.Text
+msgctxt ",44D0FFF04C4C61559D88C59AFE93A809"
+msgid "Mass income:"
+msgstr "Mass income:"
+
+#. Key:	4760861A4DC932B2E86014AD3108A8EC
+#. SourceLocation:	/Game/UI/WBP_LoadingScreen.WBP_LoadingScreen_C:WidgetTree.CommonTextBlock_0.Text
+#: /Game/UI/WBP_LoadingScreen.WBP_LoadingScreen_C:WidgetTree.CommonTextBlock_0.Text
+msgctxt ",4760861A4DC932B2E86014AD3108A8EC"
+msgid "Loading..."
+msgstr "Loading..."
+
