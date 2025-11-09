@@ -4,7 +4,7 @@
 
 
 A cosmic survival­strategy game set 10^40 years in the future.  
-Manage an outpost orbiting a supermassive black hole, negotiate factions, gather resources, and attempt to restart the universe. :contentReference[oaicite:1]{index=1}
+Manage an outpost orbiting a supermassive black hole, negotiate factions, gather resources, and attempt to restart the universe.
 
 ## ✨ Features  
 - Set in the dying far future (10^40 years old universe) in orbit around a black hole.
