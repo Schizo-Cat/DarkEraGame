@@ -3,16 +3,22 @@
 
 
 
-> A cosmic survival­strategy game set 10^40 years in the future.  
-> Manage an outpost orbiting a supermassive black hole, negotiate factions, gather resources, and attempt to restart the universe. :contentReference[oaicite:1]{index=1}
+A cosmic survival­strategy game set 10^40 years in the future.  
+Manage an outpost orbiting a supermassive black hole, negotiate factions, gather resources, and attempt to restart the universe. :contentReference[oaicite:1]{index=1}
 
 ## ✨ Features  
-- Set in the dying far future (10^40 years old universe) in orbit around a black hole. :contentReference[oaicite:2]{index=2}  
-- Build and upgrade your cosmic outpost: life-support, research stations, engines of rebirth. :contentReference[oaicite:3]{index=3}  
-- Manage humans and evolved AI (“Post-Humanus”), balancing their strengths and needs. :contentReference[oaicite:4]{index=4}  
-- Resource scarcity, faction diplomacy or conflict, deep simulation of cosmic phenomena. :contentReference[oaicite:5]{index=5}  
-- Data-rich educational journal covering black holes, Hawking radiation, proton decay and more. :contentReference[oaicite:6]{index=6}  
-- Built with strong cross-platform tech: Windows & Linux support (via Steam). :contentReference[oaicite:7]{index=7}
+- Set in the dying far future (10^40 years old universe) in orbit around a black hole.
+- Build and upgrade your cosmic outpost: life-support, research stations, engines of rebirth.
+- Manage humans and evolved AI (“Post-Humanus”), balancing their strengths and needs.
+- Resource scarcity, faction diplomacy or conflict, deep simulation of cosmic phenomena.
+- Data-rich educational journal covering black holes, Hawking radiation, proton decay and more.
+
+  ### Core Systems  
+- **BuildSystem** – Manages station construction, module upgrades, base systems.  
+- **FactionMechanics** – AI factions with their own motivations, alliances, conflicts.  
+- **CosmicSimulation** – Black-hole mass, resource flows, time-dilation and gravity mechanics & minigames.  
+- **SpaceBase** - Movement managment.
+
 
 ## 🚀 Game Trailer
 [![Watch Trailer](https://img.shields.io/badge/YouTube-Watch%20Trailer-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Fe8y_wDr4Ro)
